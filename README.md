@@ -9,20 +9,20 @@ I'm passionate about data especially about data engineering, and I have a fervor
 # Skills
 Main programming languages : SQL,Python,R <br />
 Cloud : AWS,Azure,GCP <br />
-ML library : caret , dplyr , tidyverse , sklearn , tensorflow
-BI Tools : Power BI , Tableau, Looker Studio , SpreadSheets
+ML library : caret , dplyr , tidyverse , sklearn , tensorflow <br />
+BI Tools : Power BI , Tableau, Looker Studio , SpreadSheets 
 
 # Certification
-Azure Fundamentals (AZ-900) - Microsoft
-AWS Certified Cloud Practitioner - AWS
-Road to Data Engineer - DataTH
-Data Science Bootcamp - DataRockie
-Data Engineer Bootcamp ( Scholarship Student ) - Skooldio
-ML, MLOPs, Cognitives, AI Builder - Microsoft AI Challenge 
-AWS re/start program - Amazon Web Services
-Intro to Generative AI , LLMs model and Attention Mechanism - Google cloud
-Data Engineer on Microsoft Azure - Udemy
-SQL , Tableau and JavaScript - Udemy
+Azure Fundamentals (AZ-900) - Microsoft <br />
+AWS Certified Cloud Practitioner - AWS <br />
+Road to Data Engineer - DataTH <br />
+Data Science Bootcamp - DataRockie <br />
+Data Engineer Bootcamp ( Scholarship Student ) - Skooldio <br />
+ML, MLOPs, Cognitives, AI Builder - Microsoft AI Challenge  <br />
+AWS re/start program - Amazon Web Services <br />
+Intro to Generative AI , LLMs model and Attention Mechanism - Google cloud <br />
+Data Engineer on Microsoft Azure - Udemy <br />
+SQL , Tableau and JavaScript - Udemy <br />
 
 # Contributions and Feedback
 If you find any of my projects interesting or helpful, please consider giving them a star on GitHub. I also welcome any feedback or suggestions you might have. Pull requests are more than welcome if you spot any improvements that can be made to my projects.
