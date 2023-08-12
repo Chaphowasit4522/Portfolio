@@ -25,7 +25,7 @@ SQL , Tableau and JavaScript - Udemy <br />
 # Contributions and Feedback
 If you find any of my projects interesting or helpful, please consider giving them a star on GitHub. I also welcome any feedback or suggestions you might have. Pull requests are more than welcome if you spot any improvements that can be made to my projects.
 
-#Contact
+# Contact
 Feel free to reach out to me via LinkedIn at https://www.linkedin.com/in/chaphowasit/. I'm open to collaborations, discussions, and feedback on my projects.
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my work as much as I enjoyed creating it.
