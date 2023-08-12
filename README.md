@@ -1,5 +1,3 @@
-# portfolio
-my portfolio
 # Portfolio Profile
 Welcome to my GitHub portfolio showcase! This repository curates a selection of my projects, achievements, and expertise. Feel free to delve into the diverse projects and repositories listed here to gain insights into my coding odyssey and capabilities.
 
