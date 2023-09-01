@@ -15,7 +15,7 @@ Let me know if you need anything else!
 
 1. Using SQL Server Express as the database management system for my project . This choice allowed me to efficiently store and manage data while ensuring optimal performance. I decided to work with the AdventureWorks database, which provided a rich set of sample data to work with, enabling me to demonstrate my SQL skills effectively.
 
-![Alt text](Projects/Sales%20Project/Untitled_1.png)
+![Alt text](Projects/Sales%20Project/Untitled 1.png)
 
 1. To enhance the functionality of my project, I incorporated Azure SQL Server Management Studio (SSMS) into my workflow. With the help of SSMS, I efficiently queried files based on specific business requests. By utilizing the powerful querying capabilities of SSMS, I was able to extract and manipulate data to meet the unique requirements of each request.
 
