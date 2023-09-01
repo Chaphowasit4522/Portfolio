@@ -23,32 +23,32 @@ We have selected `five` tables to use for this requirement.
 
 - dim_date - represents dates column. This table provides information about the date, including the month and year associated with each datekey.
     
-    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled 1.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%201.png)
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%202.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%202.png)
     
 - dim_customer - represents information about customers like unique customer key, name, gender, date of purchase, and city.
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%203.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%203.png)
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%204.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%204.png)
     
 - dim_product - represents information about each product, including a unique product key, the name of the product, the sub-category it belongs to, and additional attributes that describe the product in more detail.
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%205.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%205.png)
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%206.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%206.png)
     
 - fact_internetsales - represents numerical facts related to internet sales. It includes the following numeric columns: ProductKey, OrderDateKey, CustomerKey, and SalesAmount.
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%207.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%207.png)
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%208.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%208.png)
     
 
 - fact_budget (from spreadsheet) - represents budget information in each date.
 
-![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%209.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%209.png)
 
 <aside>
 💡 `Notes` : "dim" is an abbreviation for "dimension”
@@ -57,7 +57,7 @@ We have selected `five` tables to use for this requirement.
 
 3.Export all the files and connect them to Power BI in order to create a dashboard
 
-![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%2010.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%2010.png)
 
 Link to Power BI:
 
