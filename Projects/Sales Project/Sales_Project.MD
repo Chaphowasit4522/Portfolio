@@ -15,7 +15,7 @@ Let me know if you need anything else!
 
 1. Using SQL Server Express as the database management system for my project . This choice allowed me to efficiently store and manage data while ensuring optimal performance. I decided to work with the AdventureWorks database, which provided a rich set of sample data to work with, enabling me to demonstrate my SQL skills effectively.
 
-![Alt text](https://github.com/Chaphowasit4522/Portfolio/blob/99182d36ddfdcb88af55dc05152fff1606d1e3b6/Projects/Sales%20Project/Untitled%201.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled.png)
 
 1. To enhance the functionality of my project, I incorporated Azure SQL Server Management Studio (SSMS) into my workflow. With the help of SSMS, I efficiently queried files based on specific business requests. By utilizing the powerful querying capabilities of SSMS, I was able to extract and manipulate data to meet the unique requirements of each request.
 
@@ -23,7 +23,7 @@ We have selected `five` tables to use for this requirement.
 
 - dim_date - represents dates column. This table provides information about the date, including the month and year associated with each datekey.
     
-    ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%201.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled 1.png)
     
     ![Untitled](Sales%20Project%20c83cf287976b4934afe85e227d8d6829/Untitled%202.png)
     
