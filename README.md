@@ -5,10 +5,15 @@ Welcome to my GitHub portfolio showcase! This repository curates a selection of 
 I'm passionate about data especially about data engineering, and I have a fervor for crafting inventive solutions that perpetuate the world's momentum through data-driven initiatives. My aspiration is to channel my skills to enrich the global community. I aim to achieve this by actively engaging in impactful endeavors, such as producing insightful blog content to disseminate knowledge and playing a pivotal role in the dynamic realm of data-driven advancements.
 
 # Skills
-Main programming languages : SQL,Python,R <br />
-Cloud : AWS,Azure,GCP <br />
-ML library : caret , dplyr , tidyverse , sklearn , tensorflow <br />
-BI Tools : Power BI , Tableau, Looker Studio , SpreadSheets 
+Python, SQL, R (Main Languages)<br />
+C/HTML/CSS/JS, Java (Additional)<br />
+AWS, Azure, GCP in Fundamentals and Data Engineering tools<br />
+Git, Docker, Poetry (package management)<br />
+BI tools (Tableau, Power BI, Looker, Python and R libs)<br />
+ML (Caret, Scikit-learn, OpenCV etc.)<br />
+Bash command<br />
+Data Structures & Algorithms<br />
+Communication, Teamwork, Adaptability
 
 # Certification
 Azure Fundamentals (AZ-900) - Microsoft <br />
