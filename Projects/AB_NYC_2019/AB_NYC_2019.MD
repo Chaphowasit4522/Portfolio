@@ -8,48 +8,48 @@ This dataset describes the **listing activity** and metrics in NYC, NY for 201
 
 [AB_NYC_2019 | Kaggle](https://www.kaggle.com/code/jameshjkang/ab-nyc-2019)
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled.png)
 
 - Kaggle
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%201.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%201.png)
 
 - all columns
 
 1. Upload it to “Mage.ai” in the data loader section.
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%202.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%202.png)
 
 - data loader section
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%203.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%203.png)
 
 - change it into dataframe.
 
 1. I was exploring the data and discovered that there are incorrect data types for some columns and also found some rows with missing values. I will first clean the dataset by performing type checks and checking for missing values. During this process, I identified that the 'last_review' column should be of date type but is currently a string. I will convert it to the appropriate date format. Additionally, the 'reviews_per_month' column is of float type, but some values are missing. I will handle these missing values by imputing them with a constant value of zero.
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%204.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%204.png)
 
 - check null and check type.
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%205.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%205.png)
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%206.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%206.png)
 
 - convert type and fill null.
 
 1. You can create visualizations at different stages of the process, such as visualizing data in the loader section, visualizing transformations in the transform section, and creating visualizations for exported results in the export section. I can provide an example if needed.
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%207.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%207.png)
 
 - Find “Which room type is the most popular choice among renters?”
 
 1. I will double-check for null values to ensure data completeness, and then export the dataset to a local location.
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%208.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%208.png)
 
 #This is overall data lineage
 
-![Untitled](NYC__Project%20d5391bcaac8b4f39af5dcf2499a24813/Untitled%209.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%209.png)
 
 In [Mage.ai](http://mage.ai/), you have the flexibility to customize your data pipeline by dividing it into separate sections and connecting them independently, allowing for a tailored data processing workflow !!!!
