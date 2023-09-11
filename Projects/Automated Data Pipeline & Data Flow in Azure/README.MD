@@ -79,11 +79,14 @@ By automating these essential data management processes, our project enables org
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%203.png)
 
-5. Run the data pipeline and monitor it. If it fails, we will debug it by watching the logs. If it succeeds, we will check whether the data exists in both the data lake and the data warehouse. If it doesn't, we will return to the debugging phase for the pipeline
+5. Run the data pipeline and monitor it. If it fails, we will debug it by watching the logs and correct it. If it succeeds, we will check whether the data exists in both the data lake and the data warehouse.
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%204.png)
 
 6. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
+
+## Extra Project
+In this extra project, I am developing a notebook that leverages automation techniques to automatically create views on Azure Synapse Analytics by referencing a notebook that generates creating tablr script on Azure Databricks. This automation will be achieved by detecting the data schema from a JSON file, as mentioned earlier.The automation notebook utilizes Pyspark, a powerful tool for data manipulation and transformation, to dynamically generate the necessary script for creating views on Azure Synapse Analytics. This approach not only saves valuable time but also minimizes the risk of human error when defining data structures. By combining the manual operation of creating views in Azure Synapse Analytics with this supplementary automation project, I aim to create a comprehensive solution that offers both flexibility and efficiency in managing data transformations and reporting. This approach ensures that our data pipeline is robust, adaptable, and capable of handling evolving data schemas, ultimately contributing to improved data analysis and decision-making processes.
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%205.png)
 
