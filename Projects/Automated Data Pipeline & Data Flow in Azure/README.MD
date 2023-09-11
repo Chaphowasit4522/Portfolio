@@ -84,7 +84,7 @@ By automating these essential data management processes, our project enables org
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%204.png)
 
-6. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
+6. Create a table on Azure Databricks to underlie it, and then create a script for creating a view on Azure Synapse Analytics. But it is a manual operation, that make me must do an extra project.
 
 ## Extra Project
 In this extra project, I am developing a notebook that leverages automation techniques to automatically create views on Azure Synapse Analytics by referencing a notebook that generates creating tablr script on Azure Databricks. This automation will be achieved by detecting the data schema from a JSON file, as mentioned earlier.
@@ -94,6 +94,8 @@ The automation notebook utilizes Pyspark, a powerful tool for data manipulation 
 By combining the manual operation of creating views in Azure Synapse Analytics with this supplementary automation project, I aim to create a comprehensive solution that offers both flexibility and efficiency in managing data transformations and reporting. This approach ensures that our data pipeline is robust, adaptable, and capable of handling evolving data schemas, ultimately contributing to improved data analysis and decision-making processes.
 
 
+
+7. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%205.png)
 
