@@ -67,22 +67,22 @@ By automating these essential data management processes, our project enables org
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/da6f2f45309f66f118d80815d65f00db3e011620/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled.png)
 
-1. Configure a data stream that will enable the transfer of data from a source in Microsoft SQL database. This stream should include metadata such as the date, process ID, process group, dependencies, target table name, schema name, and other relevant information. This data will be inserted into the database and utilized by Azure Data Factory for execution
+2. Configure a data stream that will enable the transfer of data from a source in Microsoft SQL database. This stream should include metadata such as the date, process ID, process group, dependencies, target table name, schema name, and other relevant information. This data will be inserted into the database and utilized by Azure Data Factory for execution
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%201.png)
 
-1. We have selected a type then we will generate document files in the .xlsx format and then use macros to convert them into JSON format. These JSON files will be used to create a data dictionary that will be placed in a path for Azure Data Factory to utilize in running this pipeline
+3. We have selected a type then we will generate document files in the .xlsx format and then use macros to convert them into JSON format. These JSON files will be used to create a data dictionary that will be placed in a path for Azure Data Factory to utilize in running this pipeline
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%202.png)
 
-1. Create an SQL file that selects the desired columns, adds a new 'Date_dt' column to indicate the date of data movement, and then saves the result to a path accessible by Azure Data Factory
+4. Create an SQL file that selects the desired columns, adds a new 'Date_dt' column to indicate the date of data movement, and then saves the result to a path accessible by Azure Data Factory
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%203.png)
 
-1. Run the data pipeline and monitor it. If it fails, we will debug it by watching the logs. If it succeeds, we will check whether the data exists in both the data lake and the data warehouse. If it doesn't, we will return to the debugging phase for the pipeline
+5. Run the data pipeline and monitor it. If it fails, we will debug it by watching the logs. If it succeeds, we will check whether the data exists in both the data lake and the data warehouse. If it doesn't, we will return to the debugging phase for the pipeline
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%204.png)
-1. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
+6. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%205.png)
 
