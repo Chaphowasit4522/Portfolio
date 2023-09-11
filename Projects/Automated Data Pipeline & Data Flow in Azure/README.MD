@@ -82,6 +82,7 @@ By automating these essential data management processes, our project enables org
 5. Run the data pipeline and monitor it. If it fails, we will debug it by watching the logs. If it succeeds, we will check whether the data exists in both the data lake and the data warehouse. If it doesn't, we will return to the debugging phase for the pipeline
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%204.png)
+
 6. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%205.png)
