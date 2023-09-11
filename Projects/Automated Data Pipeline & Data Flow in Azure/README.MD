@@ -93,7 +93,7 @@ The automation notebook utilizes Pyspark, a powerful tool for data manipulation 
 
 By combining the manual operation of creating views in Azure Synapse Analytics with this supplementary automation project, I aim to create a comprehensive solution that offers both flexibility and efficiency in managing data transformations and reporting. This approach ensures that our data pipeline is robust, adaptable, and capable of handling evolving data schemas, ultimately contributing to improved data analysis and decision-making processes.
 
-
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/067973b0bb3d14405f6d5f006ba759194f663867/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/image%20(1).png)
 
 7. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
 
