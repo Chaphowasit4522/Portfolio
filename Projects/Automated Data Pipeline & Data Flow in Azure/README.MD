@@ -65,27 +65,26 @@ By automating these essential data management processes, our project enables org
     In essence, a nuanced evaluation of the business needs will enable us to make an informed decision regarding the optimal pipeline type selection for each distinct data transmission scenario
     
 
-![Untitled](Data%20pipeline%20Automation%202049d4398cce4e088974b19c2fbabbe8/Untitled.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled.png)
 
 1. Configure a data stream that will enable the transfer of data from a source in Microsoft SQL database. This stream should include metadata such as the date, process ID, process group, dependencies, target table name, schema name, and other relevant information. This data will be inserted into the database and utilized by Azure Data Factory for execution
 
-![Untitled](Data%20pipeline%20Automation%202049d4398cce4e088974b19c2fbabbe8/Untitled%201.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%201.png)
 
 1. We have selected a type then we will generate document files in the .xlsx format and then use macros to convert them into JSON format. These JSON files will be used to create a data dictionary that will be placed in a path for Azure Data Factory to utilize in running this pipeline
 
-![Untitled](Data%20pipeline%20Automation%202049d4398cce4e088974b19c2fbabbe8/Untitled%202.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%202.png)
 
 1. Create an SQL file that selects the desired columns, adds a new 'Date_dt' column to indicate the date of data movement, and then saves the result to a path accessible by Azure Data Factory
 
-![Untitled](Data%20pipeline%20Automation%202049d4398cce4e088974b19c2fbabbe8/Untitled%203.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%203.png)
 
 1. Run the data pipeline and monitor it. If it fails, we will debug it by watching the logs. If it succeeds, we will check whether the data exists in both the data lake and the data warehouse. If it doesn't, we will return to the debugging phase for the pipeline
 
-![Untitled](Data%20pipeline%20Automation%202049d4398cce4e088974b19c2fbabbe8/Untitled%204.png)
-
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%204.png)
 1. If it succeeds and exists in both locations, create the unit test file to serve company employees in Sharepoint who want to understand what I have done. Afterward, move all configurations to the central company file
 
-![Untitled](Data%20pipeline%20Automation%202049d4398cce4e088974b19c2fbabbe8/Untitled%205.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled%205.png)
 
 # Summary
 
