@@ -101,4 +101,4 @@ By combining the manual operation of creating views in Azure Synapse Analytics w
 
 # Summary
 
-This project involves automating data pipeline processes to streamline and enhance data management. It includes automated environment configuration, data ingestion, scheduled data pipeline, routine maintenance and monitoring, error handling and data cleansing, and data transformation. The project empowers organizations to focus on data analysis and decision-making rather than the complexities of data integration and transformation.
+The "Automated Data Pipeline & Data Flow in Azure" project streamlines and enhances the entire data pipeline process, empowering organizations to harness the full potential of their data. The project includes automated environment configuration, efficient data ingestion processes, scheduled data pipelines, routine maintenance and monitoring, error handling and data cleansing, and data transformation. The extra project involves automation techniques to automatically create views on Azure Synapse Analytics, contributing to improved data analysis and decision-making processes.
