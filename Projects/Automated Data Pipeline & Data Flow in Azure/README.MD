@@ -65,7 +65,7 @@ By automating these essential data management processes, our project enables org
     In essence, a nuanced evaluation of the business needs will enable us to make an informed decision regarding the optimal pipeline type selection for each distinct data transmission scenario
     
 
-![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/6027faa8bb2199a58197fc2e02700d9637c1db16/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/da6f2f45309f66f118d80815d65f00db3e011620/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Untitled.png)
 
 1. Configure a data stream that will enable the transfer of data from a source in Microsoft SQL database. This stream should include metadata such as the date, process ID, process group, dependencies, target table name, schema name, and other relevant information. This data will be inserted into the database and utilized by Azure Data Factory for execution
 
