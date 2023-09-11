@@ -31,6 +31,7 @@ In the past two months, I have successfully migrated approximately 100 data tabl
 ## Technologies & Tools
 
 - **Azure Data Factory:** for orchestrating and automating data pipelines.
+- **Microsoft SQL Server Management Studio (SSMS):** for SQL file generation and database management.
 - **Azure Blob Storage:** for storing raw data before processing.
 - **Azure Databricks:** for data preprocessing and consolidation.
 - **Azure Synapse Analytics:** for delivering insights to end-users.
