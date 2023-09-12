@@ -1,4 +1,4 @@
-# Mage.ai Data Processing for NYC_2019 Data
+# Mage.ai Data Processing for NYC_2019 Data :airplane:
 
 ## Introduction
 The NYC_2019 Data Pipeline Project is an initiative to harness the power of data by processing the NYC_2019 dataset obtained from Kaggle using Mage.ai. This project aims to clean, transform, and analyze the dataset, ensuring data accuracy and completeness. By leveraging Mage.ai's flexible data processing capabilities, we will create an efficient pipeline that automates data cleaning and transformation tasks. Our goal is to prepare the data for in-depth analysis, enabling us to derive valuable insights from the AB_NYC_2019 dataset.
