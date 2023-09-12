@@ -11,7 +11,7 @@ We measure our numbers against `budget` so I added that in a `spreadsheet` so we
 The budget is for 2021 and we usually look `4 years back` in time when we do analysis of sales.
 Let me know if you need anything else!
 
-// <green> Mark Steven
+// Mark Steven
 
 ## Introduction
 
