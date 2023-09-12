@@ -57,7 +57,8 @@ Learn many skills from Depa Thailand such as technical skills, leader skills, pr
 
 # Contact :ghost:
 **Email** : chaphowasit.work@gmail.com <br>
-**LinkedIn** : https://www.linkedin.com/in/chaphowasit/ Medium : https://medium.com/@Chaphowasit <br>
+**LinkedIn** : https://www.linkedin.com/in/chaphowasit/ <br>
+**Medium** : https://medium.com/@Chaphowasit <br>
 **Github** : https://github.com/Chaphowasit4522/ <br>
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my work as much as I enjoyed creating it.
