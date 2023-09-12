@@ -1,6 +1,6 @@
 # Sales Project
 
-## business request
+## Business request
 
 Mark Steven - Sales Manager:
 Hi Big!
