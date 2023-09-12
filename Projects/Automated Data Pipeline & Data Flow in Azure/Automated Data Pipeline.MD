@@ -1,4 +1,4 @@
-# Data pipeline Automation
+# Automated Data Pipeline & Data Flow in Azure
 
 !!!! This project involves credentialing, and everything within it is simulated !!!!
 
