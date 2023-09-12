@@ -1,4 +1,4 @@
-# Sales Project
+# Sales Project :iphone:
 
 ## Business request
 
