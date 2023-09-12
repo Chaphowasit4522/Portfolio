@@ -52,6 +52,10 @@ Purpose: Various data export and integration tools were used to seamlessly trans
 7. **Business Intelligence and Data Visualization Techniques**
 Purpose: Various business intelligence and data visualization techniques were applied within Power BI to create meaningful charts, graphs, and interactive elements in the dashboards. These techniques ensured that the data was presented in a way that facilitated easy comprehension and decision-making.
 
+## Data Flow & Diagram
+
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/3b107230c0b0d5332f6058a87e518d87022e5692/Projects/Sales%20Project/Picture/SalesDiagram.png)
+
 ## Project Objective
 
 The primary objective of the Internet Sales Enhancement and Visualization project is to transform static internet sales reports into dynamic visual dashboards. These dashboards will provide a comprehensive view of sales performance, enabling the sales team to analyze product sales, customer behavior, historical trends, and budget comparisons. Key project goals include:
