@@ -15,8 +15,25 @@ Let me know if you need anything else!
 
 ## Introduction
 
+In response to the business request from Mark Steven, the Sales Manager, our team embarked on a project aimed at enhancing internet sales reporting within the organization. The primary objective was to transition from static reports to dynamic visual dashboards that provide a comprehensive view of sales performance, including product sales, customer insights, historical trends, and budget comparisons. This transformation allows sales personnel to gain valuable insights, make data-driven decisions, and ultimately drive revenue growth.
+
+The project leveraged SQL Server Express as the database management system to efficiently store and manage the necessary data while ensuring optimal performance. We chose the AdventureWorks database, which offered a diverse and robust dataset, enabling us to demonstrate our SQL skills effectively. Additionally, Azure SQL Server Management Studio (SSMS) was integrated into our workflow to facilitate data querying and manipulation, ensuring that we met the specific requirements of each business request.
 
 ## Data Description
+
+To fulfill the objectives of the Sales Project, we selected and worked with five essential tables, each serving a unique purpose in our reporting and analysis:
+
+1. dim_date
+This table contains information related to dates, including date keys, months, and years associated with each date. It serves as a foundational component for time-based analysis and reporting.
+2. dim_customer
+The dim_customer table provides valuable insights into our customers, including unique customer keys, customer names, genders, date of purchase, and their respective cities. This data is essential for understanding customer demographics and purchase behavior.
+3. dim_product
+Information about each product is stored in the dim_product table. It includes unique product keys, product names, sub-categories, and additional attributes that describe the products in detail. This data enables us to analyze and track product-specific sales and performance.
+4. fact_internetsales
+The fact_internetsales table represents numerical facts related to internet sales. It includes key metrics such as ProductKey, OrderDateKey, CustomerKey, and SalesAmount, which are crucial for measuring sales performance and trends over time.
+5. fact_budget (from spreadsheet)
+This table represents budget information associated with each date. It allows us to compare actual sales figures against budgeted values, facilitating performance evaluation and financial analysis.
+In summary, these tables collectively provide a comprehensive dataset for our internet sales reporting and analysis. By utilizing these data sources, we aim to create dynamic visual dashboards that empower our sales team to gain insights into product sales, customer behavior, historical trends, and budget performance. These dashboards will offer powerful filtering capabilities, allowing sales personnel to tailor their analysis to specific products, customers, and timeframes. Additionally, the historical data spans four years, enabling a thorough examination of sales performance over time.
 
 ## Process
 
