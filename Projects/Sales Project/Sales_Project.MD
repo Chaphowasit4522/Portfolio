@@ -56,17 +56,17 @@ Purpose: Various business intelligence and data visualization techniques were ap
 
 The primary objective of the Internet Sales Enhancement and Visualization project is to transform static internet sales reports into dynamic visual dashboards. These dashboards will provide a comprehensive view of sales performance, enabling the sales team to analyze product sales, customer behavior, historical trends, and budget comparisons. Key project goals include:
 
-Dynamic Dashboards: Create interactive and visually appealing dashboards that replace static reports, facilitating a more engaging and insightful user experience.
+**Dynamic Dashboards**: Create interactive and visually appealing dashboards that replace static reports, facilitating a more engaging and insightful user experience.
 
-Product Sales Analysis: Enable users to analyze how much has been sold for each product, allowing for a deeper understanding of product performance.
+**Product Sales Analysis**: Enable users to analyze how much has been sold for each product, allowing for a deeper understanding of product performance.
 
-Customer Insights: Provide insights into customer demographics, behavior, and purchase patterns to support targeted marketing and sales strategies.
+**Customer Insights**: Provide insights into customer demographics, behavior, and purchase patterns to support targeted marketing and sales strategies.
 
-Historical Trends: Enable historical analysis of sales data spanning four years, allowing users to identify trends, seasonality, and performance changes over time.
+**Historical Trends**: Enable historical analysis of sales data spanning four years, allowing users to identify trends, seasonality, and performance changes over time.
 
-Filtering Capabilities: Implement robust filtering options to enable users to tailor their analysis by selecting specific products, customers, and timeframes.
+**Filtering Capabilities**: Implement robust filtering options to enable users to tailor their analysis by selecting specific products, customers, and timeframes.
 
-Budget Comparison: Integrate budget data and enable comparisons between actual sales figures and budgeted values for performance evaluation.
+**Budget Comparison**: Integrate budget data and enable comparisons between actual sales figures and budgeted values for performance evaluation.
 
 ## Process
 
