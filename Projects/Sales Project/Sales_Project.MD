@@ -37,19 +37,19 @@ In summary, these tables collectively provide a comprehensive dataset for our in
 
 ## Technologies & Tools
 
-1. **SQL Server Express**
+-   **SQL Server Express**
 Purpose: SQL Server Express was selected as the primary database management system (DBMS) for the project. It facilitated the efficient storage and management of data while ensuring optimal performance.
-2. **AdventureWorks Database**
+-  **AdventureWorks Database**
 Purpose: The AdventureWorks database served as the data source for the project. It provided a rich and diverse dataset that allowed us to effectively demonstrate SQL skills and meet the project's requirements.
-3. **Azure SQL Server Management Studio (SSMS)**
+-  **Azure SQL Server Management Studio (SSMS)**
 Purpose: Azure SQL Server Management Studio was integrated into the workflow to enhance data querying and manipulation. Its powerful querying capabilities were instrumental in extracting and transforming data to meet specific business requests.
-4. **Power BI**
+-  **Power BI**
 Purpose: Power BI was used to create dynamic visual dashboards for internet sales reporting. It enabled the transformation of static reports into interactive, visually appealing dashboards that provide insights into product sales, customer behavior, historical trends, and budget comparisons.
-5. **Spreadsheet Software**
+-  **Spreadsheet Software**
 Purpose: Spreadsheet software was employed to extract budget data, which was then incorporated into the project as the "fact_budget" table. This data was crucial for comparing actual sales figures against budgeted values and conducting financial analysis.
-6. **Data Export and Integration Tools**
+-  **Data Export and Integration Tools**
 Purpose: Various data export and integration tools were used to seamlessly transfer data from SQL Server Express, Azure SSMS, and spreadsheets to Power BI for dashboard creation. These tools ensured data accuracy and consistency throughout the project.
-7. **Business Intelligence and Data Visualization Techniques**
+-  **Business Intelligence and Data Visualization Techniques**
 Purpose: Various business intelligence and data visualization techniques were applied within Power BI to create meaningful charts, graphs, and interactive elements in the dashboards. These techniques ensured that the data was presented in a way that facilitated easy comprehension and decision-making.
 
 ## Data Flow & Diagram
