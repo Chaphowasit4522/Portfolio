@@ -62,5 +62,5 @@ In [Mage.ai](http://mage.ai/), you have the flexibility to customize your data p
 ## Project Overview
 This project aims to streamline the data processing workflow for the NYC_2019 dataset using Mage.ai. It ensures data accuracy and completeness by handling null data, incorrect data types, and outliers. Visualizations are generated to aid in understanding the dataset at various stages of the pipeline. As an example, we explore the most popular room type among renters using visualizations and data analysis techniques.
 
-##Summary
+## Summary
 The NYC_2019 Data Pipeline Project is a data processing endeavor that leverages Mage.ai's capabilities to clean, transform, and analyze the NYC_2019 dataset from Kaggle. By adhering to a structured workflow, we ensure that the dataset is ready for in-depth analysis, empowering data-driven decision-making. This project demonstrates the power of flexible data pipelines in extracting valuable insights from complex datasets, ultimately contributing to a better understanding of the NYC Airbnb rental market in 2019.
