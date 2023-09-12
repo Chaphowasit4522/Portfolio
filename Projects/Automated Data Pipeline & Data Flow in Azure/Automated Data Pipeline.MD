@@ -6,7 +6,7 @@
 
 In the era of data-driven decision-making, efficient data management is paramount. My project, "**Automated Data Pipeline & Data Flow in Azure**" is a robust solution designed to streamline and enhance the entire data pipeline process. This project empowers organizations to harness the full potential of their data by automating critical tasks, ensuring data accuracy, and optimizing data flows.
 
-## About **Data Description**
+## Data Description**
 
 "The table at hand is a comprehensive compilation of diverse banking and financial data, covering a wide array of crucial domains and operations. It includes the following data categories:
 
