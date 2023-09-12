@@ -7,7 +7,7 @@ My nickname is "Big". I am currently studying Computer Engineering at Mahidol Un
 I'm passionate about data especially about data engineering, and I have a fervor for crafting inventive solutions that perpetuate the world's momentum through data-driven initiatives. My aspiration is to channel my skills to enrich the global community. I aim to achieve this by actively engaging in impactful endeavors, such as producing insightful blog content to disseminate knowledge and playing a pivotal role in the dynamic realm of data-driven advancements.
 
 # Education
-Mahidol University        <br />      
+**Mahidol University** 
 2021 - Present<br />
 Bachelor of Engineering in Computer Engineering ,The third year.<br />
 
