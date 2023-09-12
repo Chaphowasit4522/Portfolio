@@ -9,12 +9,13 @@ The NYC_2019 dataset, sourced from Kaggle, provides comprehensive information ab
 You can download `AB_NYC_2019.csv` from Kaggle ===>
 [AB_NYC_2019 | Kaggle](https://www.kaggle.com/code/jameshjkang/ab-nyc-2019)
 
-**Kaggle**
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled.png)
 
-**All columns**
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%201.png)
 
+# Technologies & Tools:
+
+# Processes
 
 1. Upload it to “Mage.ai” in the data loader section.
 
