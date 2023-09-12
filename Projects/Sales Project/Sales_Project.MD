@@ -52,6 +52,22 @@ Purpose: Various data export and integration tools were used to seamlessly trans
 7. **Business Intelligence and Data Visualization Techniques**
 Purpose: Various business intelligence and data visualization techniques were applied within Power BI to create meaningful charts, graphs, and interactive elements in the dashboards. These techniques ensured that the data was presented in a way that facilitated easy comprehension and decision-making.
 
+## Project Objective
+
+The primary objective of the Internet Sales Enhancement and Visualization project is to transform static internet sales reports into dynamic visual dashboards. These dashboards will provide a comprehensive view of sales performance, enabling the sales team to analyze product sales, customer behavior, historical trends, and budget comparisons. Key project goals include:
+
+Dynamic Dashboards: Create interactive and visually appealing dashboards that replace static reports, facilitating a more engaging and insightful user experience.
+
+Product Sales Analysis: Enable users to analyze how much has been sold for each product, allowing for a deeper understanding of product performance.
+
+Customer Insights: Provide insights into customer demographics, behavior, and purchase patterns to support targeted marketing and sales strategies.
+
+Historical Trends: Enable historical analysis of sales data spanning four years, allowing users to identify trends, seasonality, and performance changes over time.
+
+Filtering Capabilities: Implement robust filtering options to enable users to tailor their analysis by selecting specific products, customers, and timeframes.
+
+Budget Comparison: Integrate budget data and enable comparisons between actual sales figures and budgeted values for performance evaluation.
+
 ## Process
 
 1. Using SQL Server Express as the database management system for my project . This choice allowed me to efficiently store and manage data while ensuring optimal performance. I decided to work with the AdventureWorks database, which provided a rich set of sample data to work with, enabling me to demonstrate my SQL skills effectively.
@@ -109,3 +125,13 @@ PDF file:
 [dashboard_project.pdf](https://github.com/Chaphowasit4522/Portfolio/blob/7b99671982f7a23971d7a8c89663ddc32cbdec0e/Projects/Sales%20Project/Picture/dashboard_project.pdf)
 
 The Sales Manager requested visual dashboards to improve internet sales reports, with a focus on sold products, clients, and sales over time, with filtering and budget comparison. The project used SQL Server Express and Azure SQL Server Management Studio to query data from five tables, including dim_date, dim_customer, dim_product, fact_internetsales, and fact_budget, and then exported them to Power BI to create a dashboard.
+
+## Project Outcome:
+The project will result in the creation of a set of visual dashboards hosted on Power BI. These dashboards will empower the sales team to gain valuable insights into product sales, customer behavior, historical trends, and budget performance. Users will have the flexibility to filter data based on specific criteria, enabling personalized analysis and decision-making. The project's success will contribute to data-driven sales strategies, enhanced performance tracking, and improved revenue growth.
+
+## Project Deliverables:
+
+Interactive visual dashboards hosted on Power BI.
+Documentation and user guides for navigating and utilizing the dashboards.
+PDF reports summarizing key findings and insights.
+Data integration and export scripts for future data updates.
