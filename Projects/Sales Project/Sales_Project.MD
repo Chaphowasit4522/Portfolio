@@ -1,6 +1,6 @@
 # Sales Project
 
-## ***business request***
+## business request
 
 Mark Steven - Sales Manager:
 Hi Big!
@@ -12,6 +12,13 @@ The budget is for 2021 and we usually look `4 years back` in time when we do ana
 Let me know if you need anything else!
 
 // Mark Steven
+
+## Introduction
+
+
+## Data Description
+
+## Process
 
 1. Using SQL Server Express as the database management system for my project . This choice allowed me to efficiently store and manage data while ensuring optimal performance. I decided to work with the AdventureWorks database, which provided a rich set of sample data to work with, enabling me to demonstrate my SQL skills effectively.
 
