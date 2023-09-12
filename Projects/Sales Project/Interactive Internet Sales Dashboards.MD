@@ -1,4 +1,4 @@
-# Sales Project :iphone:
+# Interactive Internet Sales Dashboards :iphone:
 
 ## Business request
 
