@@ -6,7 +6,7 @@ The NYC_2019 Data Pipeline Project is an initiative to harness the power of data
 # Data Description:
 The NYC_2019 dataset, sourced from Kaggle, provides comprehensive information about listing activity and metrics in New York City for the year 2019. It encompasses various aspects of Airbnb listings, including host details, geographical availability, and essential metrics for predictive modeling and decision-making. The dataset contains multiple columns, each providing valuable insights into the Airbnb rental market in NYC.
 
-You can download `AB_NYC_2019.csv` from Kaggle
+You can download `AB_NYC_2019.csv` from Kaggle ===>
 [AB_NYC_2019 | Kaggle](https://www.kaggle.com/code/jameshjkang/ab-nyc-2019)
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled.png)
