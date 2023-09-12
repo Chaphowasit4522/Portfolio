@@ -135,3 +135,7 @@ The project will result in the creation of a set of visual dashboards hosted on 
 - Documentation and user guides for navigating and utilizing the dashboards.<br>
 - PDF reports summarizing key findings and insights.<br>
 - Data integration and export scripts for future data updates.<br>
+
+## Summary
+
+The Internet Sales Enhancement and Visualization project was undertaken in response to a business request from Mark Steven, the Sales Manager. The objective was to transform static internet sales reports into dynamic visual dashboards that provide comprehensive insights into sales performance, including product sales, customer behavior, historical trends, and budget comparisons. This project aimed to empower the sales team with actionable data-driven insights and support informed decision-making.
