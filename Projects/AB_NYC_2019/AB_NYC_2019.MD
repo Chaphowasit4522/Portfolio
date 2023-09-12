@@ -36,7 +36,7 @@ This project aims to streamline the data processing workflow for the NYC_2019 da
 
 - change it into dataframe.
 
-1. I was exploring the data and discovered that there are incorrect data types for some columns and also found some rows with missing values. I will first clean the dataset by performing type checks and checking for missing values. During this process, I identified that the 'last_review' column should be of date type but is currently a string. I will convert it to the appropriate date format. Additionally, the 'reviews_per_month' column is of float type, but some values are missing. I will handle these missing values by imputing them with a constant value of zero.
+2. I was exploring the data and discovered that there are incorrect data types for some columns and also found some rows with missing values. I will first clean the dataset by performing type checks and checking for missing values. During this process, I identified that the 'last_review' column should be of date type but is currently a string. I will convert it to the appropriate date format. Additionally, the 'reviews_per_month' column is of float type, but some values are missing. I will handle these missing values by imputing them with a constant value of zero.
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%204.png)
 
@@ -48,13 +48,13 @@ This project aims to streamline the data processing workflow for the NYC_2019 da
 
 - convert type and fill null.
 
-1. You can create visualizations at different stages of the process, such as visualizing data in the loader section, visualizing transformations in the transform section, and creating visualizations for exported results in the export section. I can provide an example if needed.
+3. You can create visualizations at different stages of the process, such as visualizing data in the loader section, visualizing transformations in the transform section, and creating visualizations for exported results in the export section. I can provide an example if needed.
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%207.png)
 
 - Find “Which room type is the most popular choice among renters?”
 
-1. I will double-check for null values to ensure data completeness, and then export the dataset to a local location.
+4. I will double-check for null values to ensure data completeness, and then export the dataset to a local location.
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%208.png)
 
