@@ -14,10 +14,10 @@ You can download `AB_NYC_2019.csv` from Kaggle ===>
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled%201.png)
 
 ## Technologies & Tools
-**Mage.ai**: Mage.ai serves as the central platform for building and executing the data pipeline, facilitating data loading, cleaning, and transformation. <br>
-**Python**: Python programming language is used for data manipulation, transformation, and analysis.<br>
-**Pandas**: Pandas is employed for data manipulation and transformation tasks.<br>
-**Kaggle**: The initial dataset is sourced from Kaggle, a popular platform for data science and machine learning datasets.<br>
+1. **Mage.ai**: Mage.ai serves as the central platform for building and executing the data pipeline, facilitating data loading, cleaning, and transformation. <br>
+2. **Python**: Python programming language is used for data manipulation, transformation, and analysis.<br>
+3. **Pandas**: Pandas is employed for data manipulation and transformation tasks.<br>
+4. **Kaggle**: The initial dataset is sourced from Kaggle, a popular platform for data science and machine learning datasets.<br>
 
 ## Processes
 
