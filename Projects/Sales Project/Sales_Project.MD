@@ -72,7 +72,7 @@ The primary objective of the Internet Sales Enhancement and Visualization projec
 
 **Budget Comparison**: Integrate budget data and enable comparisons between actual sales figures and budgeted values for performance evaluation.
 
-## Process
+## Processes
 
 1. Using SQL Server Express as the database management system for my project . This choice allowed me to efficiently store and manage data while ensuring optimal performance. I decided to work with the AdventureWorks database, which provided a rich set of sample data to work with, enabling me to demonstrate my SQL skills effectively.
 
