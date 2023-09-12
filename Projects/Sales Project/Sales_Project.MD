@@ -131,7 +131,7 @@ The project will result in the creation of a set of visual dashboards hosted on 
 
 ## Project Deliverables:
 
--- Interactive visual dashboards hosted on Power BI.
--- Documentation and user guides for navigating and utilizing the dashboards.
--- PDF reports summarizing key findings and insights.
--- Data integration and export scripts for future data updates.
+-- Interactive visual dashboards hosted on Power BI. <br>
+-- Documentation and user guides for navigating and utilizing the dashboards.<br>
+-- PDF reports summarizing key findings and insights.<br>
+-- Data integration and export scripts for future data updates.<br>
