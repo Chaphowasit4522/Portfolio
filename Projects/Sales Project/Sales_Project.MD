@@ -21,7 +21,7 @@ The project leveraged SQL Server Express as the database management system to ef
 
 ## Data Description
 
-To fulfill the objectives of the Sales Project, we selected and worked with five essential tables, each serving a unique purpose in our reporting and analysis:
+To fulfill the objectives of the Sales Project, we selected and worked with five essential tables in AdventureWorks database, each serving a unique purpose in our reporting and analysis:
 
 1. dim_date
 This table contains information related to dates, including date keys, months, and years associated with each date. It serves as a foundational component for time-based analysis and reporting.
