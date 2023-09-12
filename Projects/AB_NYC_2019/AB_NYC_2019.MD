@@ -19,6 +19,11 @@ You can download `AB_NYC_2019.csv` from Kaggle ===>
 -  **Pandas**: Pandas is employed for data manipulation and transformation tasks.<br>
 -  **Kaggle**: The initial dataset is sourced from Kaggle, a popular platform for data science and machine learning datasets.<br>
 
+## Data Flow & Diagram
+
+## Project Overview:
+This project aims to streamline the data processing workflow for the NYC_2019 dataset using Mage.ai. It ensures data accuracy and completeness by handling null data, incorrect data types, and outliers. Visualizations are generated to aid in understanding the dataset at various stages of the pipeline. As an example, we explore the most popular room type among renters using visualizations and data analysis techniques.
+
 ## Processes
 
 1. Upload it to “Mage.ai” in the data loader section.
