@@ -120,13 +120,9 @@ We have selected `five` tables to use for this requirement.
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/0914f8016627106395cef8d8f4c9a299b7ae0762/Projects/Sales%20Project/Picture/Untitled%2010.png)
 
-Link to Power BI:
+Link to Power BI: [dashboard_project](https://app.powerbi.com/view?r=eyJrIjoiYzQxN2VhNTktYzA5MC00Yjk0LWEzMGQtNTI2ZDIwMzg1ZmE4IiwidCI6IjliYzU4NWY5LWE4YjgtNDMxYy05MDEzLWVmYTdiMmI0MGNkZiIsImMiOjEwfQ%3D%3D)
 
- [dashboard_project](https://app.powerbi.com/view?r=eyJrIjoiYzQxN2VhNTktYzA5MC00Yjk0LWEzMGQtNTI2ZDIwMzg1ZmE4IiwidCI6IjliYzU4NWY5LWE4YjgtNDMxYy05MDEzLWVmYTdiMmI0MGNkZiIsImMiOjEwfQ%3D%3D)
-
-PDF file:
-
-[dashboard_project.pdf](https://github.com/Chaphowasit4522/Portfolio/blob/7b99671982f7a23971d7a8c89663ddc32cbdec0e/Projects/Sales%20Project/Picture/dashboard_project.pdf)
+PDF file: [dashboard_project.pdf](https://github.com/Chaphowasit4522/Portfolio/blob/7b99671982f7a23971d7a8c89663ddc32cbdec0e/Projects/Sales%20Project/Picture/dashboard_project.pdf)
 
 The Sales Manager requested visual dashboards to improve internet sales reports, with a focus on sold products, clients, and sales over time, with filtering and budget comparison. The project used SQL Server Express and Azure SQL Server Management Studio to query data from five tables, including dim_date, dim_customer, dim_product, fact_internetsales, and fact_budget, and then exported them to Power BI to create a dashboard.
 
