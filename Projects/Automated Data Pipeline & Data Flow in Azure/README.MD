@@ -44,6 +44,10 @@ In the past two months, I have successfully migrated approximately 100 data tabl
 - **Logging and Monitoring Tools:** for tracking data pipeline performance and debugging.
 - **Company's Central Configuration:** for centralizing and sharing project configurations and settings.
 
+## Data Flow & Diagram
+
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/5fe3e81debfe47b1558d334993f0ba1ccb002314/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Diagrams.png)
+
 ## Project Overview
 
 Our project encompasses several key components to create a comprehensive data management ecosystem:
