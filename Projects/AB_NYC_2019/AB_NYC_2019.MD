@@ -1,11 +1,12 @@
 # Mage.ai Data Processing for NYC_2019 Data
 
-This project aims to create a data pipeline using [Mage.ai](http://mage.ai/) to process NYC_2019 data, cleaning, transforming, and exporting it to a CSV file for analysis. The pipeline handles null data, wrong-format data, and outliers to ensure accuracy. The dataset is checked for null values and exported to a local location. Visualizations can be created at different stages of the process, and an example is provided for finding the most popular room type among renters.
+# Introduction:
+The NYC_2019 Data Pipeline Project is an initiative to harness the power of data by processing the NYC_2019 dataset obtained from Kaggle using Mage.ai. This project aims to clean, transform, and analyze the dataset, ensuring data accuracy and completeness. By leveraging Mage.ai's flexible data processing capabilities, we will create an efficient pipeline that automates data cleaning and transformation tasks. Our goal is to prepare the data for in-depth analysis, enabling us to derive valuable insights from the AB_NYC_2019 dataset.
 
-1. Download `AB_NYC_2019.csv` from Kaggle
+# Data Description:
+The NYC_2019 dataset, sourced from Kaggle, provides comprehensive information about listing activity and metrics in New York City for the year 2019. It encompasses various aspects of Airbnb listings, including host details, geographical availability, and essential metrics for predictive modeling and decision-making. The dataset contains multiple columns, each providing valuable insights into the Airbnb rental market in NYC.
 
-This dataset describes the **listing activity** and metrics in NYC, NY for 2019. Content This data file includes all needed information to find out more about hosts, geographical availability, necessary metrics to make predictions and draw conclusions.
-
+You can download `AB_NYC_2019.csv` from Kaggle
 [AB_NYC_2019 | Kaggle](https://www.kaggle.com/code/jameshjkang/ab-nyc-2019)
 
 ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/afac1cc5d490a40931c916d3fdc6015a586662aa/Projects/AB_NYC_2019/Picture/Untitled.png)
