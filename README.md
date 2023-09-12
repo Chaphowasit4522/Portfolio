@@ -56,8 +56,8 @@ I have published two blog posts on Medium about “my journey to become an inter
 Learn many skills from Depa Thailand such as technical skills, leader skills, presentation skills, digital skills, pitching skills and get an opportunity for compete in Hackathon Competition 2023
 
 # Contact :ghost:
-**Email** : chaphowasit.work@gmail.com 
-**LinkedIn** : https://www.linkedin.com/in/chaphowasit/ Medium : https://medium.com/@Chaphowasit
-**Github** : https://github.com/Chaphowasit4522/
+**Email** : chaphowasit.work@gmail.com <br>
+**LinkedIn** : https://www.linkedin.com/in/chaphowasit/ Medium : https://medium.com/@Chaphowasit <br>
+**Github** : https://github.com/Chaphowasit4522/ <br>
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my work as much as I enjoyed creating it.
