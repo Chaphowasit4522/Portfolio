@@ -1,4 +1,4 @@
-# NYC__Project
+# Mage.ai Data Processing for NYC_2019 Data
 
 This project aims to create a data pipeline using [Mage.ai](http://mage.ai/) to process NYC_2019 data, cleaning, transforming, and exporting it to a CSV file for analysis. The pipeline handles null data, wrong-format data, and outliers to ensure accuracy. The dataset is checked for null values and exported to a local location. Visualizations can be created at different stages of the process, and an example is provided for finding the most popular room type among renters.
 
