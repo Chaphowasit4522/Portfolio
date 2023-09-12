@@ -21,6 +21,8 @@ You can download `AB_NYC_2019.csv` from Kaggle ===>
 
 ## Data Flow & Diagram
 
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/243b411b0e98e64b615feb30a4a4d17000039f6b/Projects/AB_NYC_2019/Picture/NYC_Diagram.png)
+
 ## Project Overview:
 This project aims to streamline the data processing workflow for the NYC_2019 dataset using Mage.ai. It ensures data accuracy and completeness by handling null data, incorrect data types, and outliers. Visualizations are generated to aid in understanding the dataset at various stages of the pipeline. As an example, we explore the most popular room type among renters using visualizations and data analysis techniques.
 
