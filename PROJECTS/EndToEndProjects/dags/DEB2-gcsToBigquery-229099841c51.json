@@ -1,6 +1,6 @@
 {
-  //your keyfile from Google Cloud IAM/Admin
-bigquery.jobs.create
+Title : your keyfile from Google Cloud IAM/Admin
+1 : bigquery.jobs.create
 bigquery.tables.create
 bigquery.tables.get
 bigquery.tables.update
