@@ -1,3 +1,4 @@
+--Which hour of each day has the highest number of late trains? 
 with
 
 fct_movements as (
