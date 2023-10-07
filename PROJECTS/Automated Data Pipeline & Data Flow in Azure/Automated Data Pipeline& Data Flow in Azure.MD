@@ -46,7 +46,7 @@ In the past two months, I have successfully migrated approximately 100 data tabl
 
 ## Data Flow & Diagram
 
-![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/5fe3e81debfe47b1558d334993f0ba1ccb002314/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Diagrams.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/5fe3e81debfe47b1558d334993f0ba1ccb002314/Projects/Automated%20Data%20Pipeline%20%26%20Data%20Flow%20in%20Azure/Pictures/Brown Yellow Texture Thank You Postcard..png)
 
 ## Project Overview
 
