@@ -2311,3 +2311,4 @@
 [2023-10-07T11:23:54.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
 [2023-10-07T11:23:54.292+0000] {logging_mixin.py:151} INFO - [2023-10-07T11:23:54.292+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2023-10-07T11:23:54.335+0000] {logging_mixin.py:151} INFO - [2023-10-07T11:23:54.335+0000] {dag.py:3677} INFO - Setting next_dagrun for latest_only to 2023-10-07T07:23:54.334603+00:00, run_after=2023-10-07T11:23:54.334603+00:00
+[2023-10-07T11:23:54.423+0000] {processor.py:179} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.182 seconds
