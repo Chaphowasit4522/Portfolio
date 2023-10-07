@@ -6,8 +6,6 @@ fct_movements as (
 
 )
 
---[Optional] Which hour of each day has the highest number of late trains? (hours_of_each_day_with_highest_number_of_late_trainsql)
---⚠️ HINT: ลองใช้ Window Function อย่าง row_number() ช่วยได้
 , Hour_T AS (
   SELECT
     DATE(actual_timestamp_utc) AS actual_date,
