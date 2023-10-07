@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+
+  - name: networkrail_train_movement_data
+    label: Network Rail Train Movement Data
+    type: dashboard
+    maturity: high
+    url: https://bi.tool/dashboards/1  # Change to your dashboard's URL
+    description: >
+      Network Rail Train Movement Data
+
+    depends_on:
+      - ref('fct_movements')
+
+    owner:
+      name: Big Chaphowasit  # Change to your name
+      email: chaphowasit.work@gmail.com  # Change to your email
