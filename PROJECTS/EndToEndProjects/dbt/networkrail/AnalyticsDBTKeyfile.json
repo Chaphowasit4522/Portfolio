@@ -1,4 +1,4 @@
-//your keyfile from Google Cloud Storage
+your keyfile from Google Cloud Storage
 - bigquery.datasets.create
 - bigquery.jobs.create
 - bigquery.tables.create
