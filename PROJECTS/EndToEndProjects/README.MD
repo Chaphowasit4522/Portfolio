@@ -123,7 +123,7 @@ Fields marked with an asterisk may not be present in some messages and your code
 
 # Data Flow & Diagram
 
-![DBT.png](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/DBT.png)
+![DBT.png](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/DBT.png)
 
 # Project Overview
 
@@ -135,11 +135,11 @@ before we start doing this project We might start by creating project and then c
 
 - I already using GCS Bucket called **`chaphowasit-project-network_rail`** in asia-southeast1 (Singapore) .
 
-![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled.png)
 
 - At BigQuery we will create a new Dataset named `networkrail` to store Network Rail information.
 
-![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%201.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%201.png)
 
 - Run the command below to prepare for Airflow.
 
@@ -299,11 +299,11 @@ header = [
 
 As a result of this step, we will have a CSV file that we saved, containing NetworkRail information.
 
-![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%202.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%202.png)
 
 1. Write code to develop functions `_load_data_to_gcs` To upload the CSV file from the previous section to GCS Bucket, then use the Task in the DAG to call this function. As a result of this step, we will see the CSV file we obtained from the previous step in our GCS Bucket.
 
-![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%203.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%203.png)
 
 1. Write code to develop functions `_load_data_from_gcs_to_bigquery` to allow BigQuery to load data from GCS to create a table, where our table will partition the `actual_timestamp` field. It's a daily basis, then let the Task in the DAG call this function. The code below can be used to load JobConfig.
 
@@ -353,11 +353,11 @@ job_config = bigquery.LoadJobConfig(
 
 The results obtained from this step We can see that in our BigQuery, the Dataset named `networkrail` has a table called `movements` occur that has Daily Partition in the `actual_timestamp` field. And there is train information in it.
 
-![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%204.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%204.png)
 
 1. Please check the Airflow DAG name `networkrail_movements_to_gcs_and_then_bigquery` and review its graph that show all tasks
 
-![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%205.png)
+![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%205.png)
 
 ## Applying Analytics Engineering to Our Project using dbt
 
@@ -731,7 +731,7 @@ The results obtained from this step We can see that in our BigQuery, the Dataset
     
     The final Data Lineage will look like after we have a model that answers the questions above. It will look something like this. (Here, if you get a different Data Lineage look, don't worry. The goal is to let us know that each model What model did it come from? And what data does each model use?)
     
-    ![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%206.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%206.png)
     
     (but without orange box)
     
@@ -767,7 +767,7 @@ The results obtained from this step We can see that in our BigQuery, the Dataset
     
     The image of the Data Models that Airflow loads and displays as a Graph will look something like this.
     
-    ![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%207.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%207.png)
     
     ## Creating a Dashboard
     
@@ -786,7 +786,7 @@ The results obtained from this step We can see that in our BigQuery, the Dataset
     SUM(IF(variation_status="EARLY",1,0))
     ```
     
-    ![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%208.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%208.png)
     
     ### Add Exposure to Data Catalog
     
@@ -823,7 +823,7 @@ The results obtained from this step We can see that in our BigQuery, the Dataset
     
     If we go and look at the Data Lineage, we will have an orange Node, which means that we have already written a document that says Dashboard named `networkrail_train_movement_data`. A model called `fct_movements`
     
-    ![Untitled](End-To-End%20with%20GCP%20b65896c70fd748839915b58a0e25fbba/Untitled%206.png)
+    ![Untitled](https://github.com/Chaphowasit4522/Portfolio/blob/cd867e9c0b84a4e3d911b864df08285dfb02a8f1/PROJECTS/EndToEndProjects/Pictures/Untitled%206.png)
     
     This will be very useful. That will help us quickly check for errors that occur on the Dashboard to determine which model they are caused by. And we also know which dashboards use which models.
     
