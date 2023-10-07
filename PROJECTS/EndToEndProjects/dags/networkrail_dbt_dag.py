@@ -1,5 +1,4 @@
 from airflow.utils import timezone
-
 from cosmos.providers.dbt import DbtDag
 
 
