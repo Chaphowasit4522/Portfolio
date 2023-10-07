@@ -18,11 +18,11 @@ DAGS_FOLDER = "/opt/airflow/dags"
 BUSINESS_DOMAIN = "networkrail"
 DATA = "movements"
 LOCATION = "asia-southeast1"
-PROJECT_ID = "essential-graph-395008"
-GCS_BUCKET = "chaphowasit-project-network_rail"
+PROJECT_ID = "your project ID"
+GCS_BUCKET = "your Bucket"
 BIGQUERY_DATASET = "networkrail"
-KEYFILE_FOR_GCS = f"{DAGS_FOLDER}/DEB2-gcsToBigquery-229099841c51.json"
-KEYFILE_FOR_GCS_TO_BIGQUERY = f"{DAGS_FOLDER}/DEB2-gcsToBigquery-229099841c51.json"
+KEYFILE_FOR_GCS = f"{DAGS_FOLDER}/YOURKEYFILE.json"
+KEYFILE_FOR_GCS_TO_BIGQUERY = f"{DAGS_FOLDER}/YOURKEYFILE.json"
 
 
 def _extract_data(**context):
