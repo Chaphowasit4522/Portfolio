@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: networkrail
     schema: networkrail
-    database: essential-graph-395008
+    database: YOURPROJECT_ID
 
     tables:
       - name: movements
