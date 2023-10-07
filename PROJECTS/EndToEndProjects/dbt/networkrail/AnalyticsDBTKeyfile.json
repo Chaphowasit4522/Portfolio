@@ -1,14 +1,7 @@
-{
-    "type": "service_account",
-    "project_id": "essential-graph-395008",
-    "private_key_id": "2a75ceb14cbea5f29eb917832134b384377a7838",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvMbXddzU80bde\nr2gedXhq5+E7PQ9jmXwnQKNsjFJrCtTdxlU610ZeHDL4bwTKcrEsTrszGgZRaUNX\newvndr89dtqNyztQEJMVORNRAyF68tD7uuWkbNa54vIU3GSzLbF5zhSSK04lKicu\n9mWq47jHCw6GYFU1rE6Q0PlhUi1Q7KCew785toxeAuAnYwaVUoW9asc8MNzHwdtY\nU6qaNsxq5rNWjTmFwFWdsAmFlYLOUzhUb4Wl+Y0aDgLRIboVwRdthbrDBgL6El04\n/L8eXuwkTvZmb41osblYzZE6fW6ll/NLYGq/IDP4V3EjUbcUxc4X+ZTmKlwmGr3a\nFdojQ9FbAgMBAAECggEAPxQSa6FquTG3KK/WOLVJ/I/tsAMNoepW4dkrnj8tw528\nQ/ePo2Z0TxkvHvT2ECBYe2ADleQmZzSTyxEiGZ5PQAWlrk0A15SIKKmKs24BpX98\n0E4cNeX8MCSuzeUGmt72Wilhjblq4wW44vdTZsKkOoJYIfjYZUFbblfXmntYlpxr\nfFjdw3yUUeTJOGsmt3qPGJnmWp1WHC+CjYa6vt4F03NAZfsf/hc8pa2d+zW27+Be\n/OwWz6YJXAtNxLUwfrZDj6wrQp0W37AXLroDcEwejZgID7HoAZWDe+AAMNKKenyB\nLju5iL2dGWKbpx0yKrHZG26B8S/16xY31vOs/fkekQKBgQDgaGO4zBcu8kid7XgU\nUQPt1z2FfXiw/CHdMLKtaaqAukWJhhNPf83bvFqbyRhaWZBW6IFgEpZbgpThOY0O\np9GV9FqljN60T8IAD6uMCSoFHlTDQEmNLfQiVYh4kf4uDwVViMV3TQm0jiYFFPyb\nhUxLxf2PYDt84lDFEGjFvMf+0QKBgQDH26xPIoQhZKnnCaFE1Q1g+Vd5+FpffxP9\nCXXApprLGKTlpavFdaQo1q62+YuaGsEJpZINTGHJ5p7qRcjfhxjgLlFt+yAaiFL9\npIyzD3uu8TS1BrKFcJha68bDfrQ21EK8+c0Jx2GzI0PZTFpP6e8ar9rRwpolK5VM\n53kPHBtQawKBgGVKGQDXdftltqs5/YJGExzuk0FGogxYsbxR98RYNnKGIU7yqpKu\noC93c/pvKUPWu1TO+15u5VkGtsZ2IJol227w7V1eGUOP4IQAjrDVjhbjWuUKhmhn\n/pLkwoWReAY4F3NFGcRAjInnw3d1wpM79nUZN9rYV+GFkWlxf6kJDciRAoGBAJeh\n8JK90lfvowSahtPNfXAU3ay5o/+OT+EMm12GSi1LTli6IKAZCGq/ryE+Jg/OuqUS\nDMSwLgVcRzfhqG0Hd/UmzztNa+cVhTnR7boxRhrOALpUEYAylDVva4eJizuKQfRU\n5p7DujmKyQCF8INvLq0lvTSmnAMVlRobCPtQzNxvAoGAeQHgF1o4sQTJ6zOkGkeS\nJZEmsOBNz1yJUWvRV9i0jytmZwiJvhcrygR7IhwCLXGdE7xy8GOfTADcZX1uhjfA\nGThVVzcZFx4RWbB2BOLH65Oec2GzJruRh3Ga/sXmqMlhPdS5Joc1DqOylvggkqn9\ngNRkpk9uMvBjGsU8K+318wo=\n-----END PRIVATE KEY-----\n",
-    "client_email": "deb2-analyticswithdbt@essential-graph-395008.iam.gserviceaccount.com",
-    "client_id": "111526845736998810570",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb2-analyticswithdbt%40essential-graph-395008.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
-  
+//your keyfile from Google Cloud Storage
+- bigquery.datasets.create
+- bigquery.jobs.create
+- bigquery.tables.create
+- bigquery.tables.get
+- bigquery.tables.getData
+- bigquery.tables.list
