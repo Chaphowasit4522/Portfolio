@@ -1,10 +1,12 @@
 {
-Title : your keyfile from Google Cloud IAM/Admin
-1 : bigquery.jobs.create
-bigquery.tables.create
-bigquery.tables.get
-bigquery.tables.update
-bigquery.tables.updateData
-storage.objects.create
-storage.objects.get
+  "Title": "your keyfile from Google Cloud IAM/Admin",
+  "Permissions": [
+    "bigquery.jobs.create",
+    "bigquery.tables.create",
+    "bigquery.tables.get",
+    "bigquery.tables.update",
+    "bigquery.tables.updateData",
+    "storage.objects.create",
+    "storage.objects.get"
+  ]
 }
