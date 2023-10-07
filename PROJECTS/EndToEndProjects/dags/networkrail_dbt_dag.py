@@ -1,7 +1,6 @@
 from airflow.utils import timezone
 from cosmos.providers.dbt import DbtDag
 
-
 default_args = {
     "owner": "Chaphowasit Big",
     "start_date": timezone.datetime(2023, 5, 1),
