@@ -8,7 +8,7 @@ networkrail:
       project: essential-graph-395008
       dataset: dbt_big
       threads: 1
-      keyfile: /workspaces/data-engineering-bootcamp/07-end-to-end-project/dbt/networkrail/AnalyticsDBTKeyfile.json
+      keyfile: /workspaces/Portfolio/PROJECTS/EndToEndProjects/dbt/networkrail/AnalyticsDBTKeyfile.json
       location: asia-southeast1
 
     prod:
@@ -17,5 +17,5 @@ networkrail:
       project: essential-graph-395008
       dataset: networkrail
       threads: 1
-      keyfile: /workspaces/data-engineering-bootcamp/07-end-to-end-project/dbt/networkrail/AnalyticsDBTKeyfile.json
+      keyfile: /workspaces/Portfolio/PROJECTS/EndToEndProjects/dbt/networkrail/AnalyticsDBTKeyfile.json
       location: asia-southeast1

@@ -19,7 +19,7 @@ BUSINESS_DOMAIN = "networkrail"
 DATA = "movements"
 LOCATION = "asia-southeast1"
 PROJECT_ID = "essential-graph-395008"
-GCS_BUCKET = "deb2-bootcamp005"
+GCS_BUCKET = "chaphowasit-project-network_rail"
 BIGQUERY_DATASET = "networkrail"
 KEYFILE_FOR_GCS = f"{DAGS_FOLDER}/DEB2-gcsToBigquery-229099841c51.json"
 KEYFILE_FOR_GCS_TO_BIGQUERY = f"{DAGS_FOLDER}/DEB2-gcsToBigquery-229099841c51.json"
@@ -202,7 +202,7 @@ default_args = {
 with DAG(
     dag_id="networkrail_movements_to_gcs_and_then_bigquery",
     default_args=default_args,
-    schedule="@hourly",  # Set the schedule here
+    schedule="@daily",  # Set the schedule here
     catchup=False,
     tags=["DEB", "2023", "networkrail"],
     max_active_runs=3,

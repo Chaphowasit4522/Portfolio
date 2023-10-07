@@ -1,0 +1,40 @@
+[2023-10-07T10:30:40.351+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: networkrail_dbt_dag.stg_networkrail__movements.stg_networkrail__movements_run manual__2023-10-07T10:30:38.079444+00:00 [queued]>
+[2023-10-07T10:30:40.359+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: networkrail_dbt_dag.stg_networkrail__movements.stg_networkrail__movements_run manual__2023-10-07T10:30:38.079444+00:00 [queued]>
+[2023-10-07T10:30:40.359+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-07T10:30:40.385+0000] {taskinstance.py:1382} INFO - Executing <Task(DbtRunLocalOperator): stg_networkrail__movements.stg_networkrail__movements_run> on 2023-10-07 10:30:38.079444+00:00
+[2023-10-07T10:30:40.390+0000] {standard_task_runner.py:57} INFO - Started process 57052 to run task
+[2023-10-07T10:30:40.398+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'networkrail_dbt_dag', 'stg_networkrail__movements.stg_networkrail__movements_run', 'manual__2023-10-07T10:30:38.079444+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/networkrail_dbt_dag.py', '--cfg-path', '/tmp/tmpfnbyox74']
+[2023-10-07T10:30:40.401+0000] {standard_task_runner.py:85} INFO - Job 67: Subtask stg_networkrail__movements.stg_networkrail__movements_run
+[2023-10-07T10:30:40.531+0000] {task_command.py:415} INFO - Running <TaskInstance: networkrail_dbt_dag.stg_networkrail__movements.stg_networkrail__movements_run manual__2023-10-07T10:30:38.079444+00:00 [running]> on host 6b4be57cca48
+[2023-10-07T10:30:40.751+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Chaphowasit Big' AIRFLOW_CTX_DAG_ID='networkrail_dbt_dag' AIRFLOW_CTX_TASK_ID='stg_networkrail__movements.stg_networkrail__movements_run' AIRFLOW_CTX_EXECUTION_DATE='2023-10-07T10:30:38.079444+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-07T10:30:38.079444+00:00'
+[2023-10-07T10:30:40.768+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-10-07T10:30:40.781+0000] {base.py:73} INFO - Using connection ID 'networkrail_dbt_bigquery_conn' for task execution.
+[2023-10-07T10:30:40.878+0000] {adapted_subprocesshook.py:55} INFO - Tmp dir root location: 
+ /tmp
+[2023-10-07T10:30:40.882+0000] {adapted_subprocesshook.py:68} INFO - Running command: ['dbt', 'run', '--models', 'stg_networkrail__movements', '--profile', 'bigquery_profile']
+[2023-10-07T10:30:40.947+0000] {adapted_subprocesshook.py:79} INFO - Output:
+[2023-10-07T10:30:50.099+0000] {adapted_subprocesshook.py:91} INFO - [0m10:30:50  Running with dbt=1.5.0
+[2023-10-07T10:30:52.155+0000] {adapted_subprocesshook.py:91} INFO - [0m10:30:52  Encountered an error:
+[2023-10-07T10:30:52.156+0000] {adapted_subprocesshook.py:91} INFO - Runtime Error
+[2023-10-07T10:30:52.157+0000] {adapted_subprocesshook.py:91} INFO -   Failed to read package: Runtime Error
+[2023-10-07T10:30:52.157+0000] {adapted_subprocesshook.py:91} INFO -     No dbt_project.yml found at expected path /tmp/tmp_tfootjv/dbt_project/dbt_packages/dbt_date/dbt_project.yml
+[2023-10-07T10:30:52.158+0000] {adapted_subprocesshook.py:91} INFO -     Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+[2023-10-07T10:30:52.158+0000] {adapted_subprocesshook.py:91} INFO - 
+[2023-10-07T10:30:52.159+0000] {adapted_subprocesshook.py:91} INFO - 
+[2023-10-07T10:30:52.159+0000] {adapted_subprocesshook.py:91} INFO - Error encountered in /tmp/tmp_tfootjv/dbt_project/dbt_packages/dbt_date
+[2023-10-07T10:30:53.978+0000] {adapted_subprocesshook.py:95} INFO - Command exited with return code 2
+[2023-10-07T10:30:53.995+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/local.py", line 196, in execute
+    result = self.build_and_run_cmd(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/local.py", line 104, in build_and_run_cmd
+    return self.run_command(cmd=dbt_cmd, env=env)
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/local.py", line 96, in run_command
+    self.exception_handling(result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/local.py", line 60, in exception_handling
+    raise AirflowException(
+airflow.exceptions.AirflowException: dbt command failed. The command returned a non-zero exit code 2.
+[2023-10-07T10:30:54.002+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=networkrail_dbt_dag, task_id=stg_networkrail__movements.stg_networkrail__movements_run, execution_date=20231007T103038, start_date=20231007T103040, end_date=20231007T103054
+[2023-10-07T10:30:54.036+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 67 for task stg_networkrail__movements.stg_networkrail__movements_run (dbt command failed. The command returned a non-zero exit code 2.; 57052)
+[2023-10-07T10:30:54.069+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-07T10:30:54.124+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

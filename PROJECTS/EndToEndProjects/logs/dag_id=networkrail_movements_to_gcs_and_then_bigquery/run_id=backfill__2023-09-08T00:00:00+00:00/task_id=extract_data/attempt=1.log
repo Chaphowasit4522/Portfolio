@@ -1,0 +1,16 @@
+[2023-10-07T08:50:37.745+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: networkrail_movements_to_gcs_and_then_bigquery.extract_data backfill__2023-09-08T00:00:00+00:00 [queued]>
+[2023-10-07T08:50:37.751+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: networkrail_movements_to_gcs_and_then_bigquery.extract_data backfill__2023-09-08T00:00:00+00:00 [queued]>
+[2023-10-07T08:50:37.752+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-07T08:50:37.769+0000] {taskinstance.py:1382} INFO - Executing <Task(BranchPythonOperator): extract_data> on 2023-09-08 00:00:00+00:00
+[2023-10-07T08:50:37.773+0000] {standard_task_runner.py:57} INFO - Started process 8282 to run task
+[2023-10-07T08:50:37.776+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'networkrail_movements_to_gcs_and_then_bigquery', 'extract_data', 'backfill__2023-09-08T00:00:00+00:00', '--job-id', '32', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/networkrail_movements_to_gcs_and_then_bigquery.py', '--cfg-path', '/tmp/tmp23kk2rwf']
+[2023-10-07T08:50:37.776+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask extract_data
+[2023-10-07T08:50:37.813+0000] {task_command.py:415} INFO - Running <TaskInstance: networkrail_movements_to_gcs_and_then_bigquery.extract_data backfill__2023-09-08T00:00:00+00:00 [running]> on host 6b4be57cca48
+[2023-10-07T08:50:37.882+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Skooldio' AIRFLOW_CTX_DAG_ID='networkrail_movements_to_gcs_and_then_bigquery' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2023-09-08T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='backfill__2023-09-08T00:00:00+00:00'
+[2023-10-07T08:50:38.021+0000] {python.py:194} INFO - Done. Returned value was: load_data_to_gcs
+[2023-10-07T08:50:38.021+0000] {python.py:227} INFO - Branch callable return load_data_to_gcs
+[2023-10-07T08:50:38.021+0000] {skipmixin.py:173} INFO - Following branch load_data_to_gcs
+[2023-10-07T08:50:38.035+0000] {skipmixin.py:239} INFO - Skipping tasks [('do_nothing', -1)]
+[2023-10-07T08:50:38.080+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=networkrail_movements_to_gcs_and_then_bigquery, task_id=extract_data, execution_date=20230908T000000, start_date=20231007T085037, end_date=20231007T085038
+[2023-10-07T08:50:38.117+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-07T08:50:38.140+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

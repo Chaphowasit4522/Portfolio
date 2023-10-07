@@ -19,5 +19,5 @@ networkrail_dbt_dag = DbtDag(
     },
     dbt_root_path="/opt/airflow/dbt",
     max_active_runs=1,
-    tags=["DEB", "2023", "networkrail", "dbt"],
+    tags=["2023", "networkrail", "dbt"],
 )

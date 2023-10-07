@@ -1,0 +1,28 @@
+[2023-10-07T08:57:23.452+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: networkrail_dbt_dag.stg_networkrail__operating_companies.stg_networkrail__operating_companies_run manual__2023-10-07T08:57:19.906926+00:00 [queued]>
+[2023-10-07T08:57:23.503+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: networkrail_dbt_dag.stg_networkrail__operating_companies.stg_networkrail__operating_companies_run manual__2023-10-07T08:57:19.906926+00:00 [queued]>
+[2023-10-07T08:57:23.503+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-07T08:57:23.565+0000] {taskinstance.py:1382} INFO - Executing <Task(DbtRunLocalOperator): stg_networkrail__operating_companies.stg_networkrail__operating_companies_run> on 2023-10-07 08:57:19.906926+00:00
+[2023-10-07T08:57:23.578+0000] {standard_task_runner.py:57} INFO - Started process 11643 to run task
+[2023-10-07T08:57:23.583+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'networkrail_dbt_dag', 'stg_networkrail__operating_companies.stg_networkrail__operating_companies_run', 'manual__2023-10-07T08:57:19.906926+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/networkrail_dbt_dag.py', '--cfg-path', '/tmp/tmp29rnyquw']
+[2023-10-07T08:57:23.585+0000] {standard_task_runner.py:85} INFO - Job 42: Subtask stg_networkrail__operating_companies.stg_networkrail__operating_companies_run
+[2023-10-07T08:57:23.726+0000] {task_command.py:415} INFO - Running <TaskInstance: networkrail_dbt_dag.stg_networkrail__operating_companies.stg_networkrail__operating_companies_run manual__2023-10-07T08:57:19.906926+00:00 [running]> on host 6b4be57cca48
+[2023-10-07T08:57:23.876+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Chaphowasit Big' AIRFLOW_CTX_DAG_ID='networkrail_dbt_dag' AIRFLOW_CTX_TASK_ID='stg_networkrail__operating_companies.stg_networkrail__operating_companies_run' AIRFLOW_CTX_EXECUTION_DATE='2023-10-07T08:57:19.906926+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-07T08:57:19.906926+00:00'
+[2023-10-07T08:57:23.900+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/local.py", line 196, in execute
+    result = self.build_and_run_cmd(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/local.py", line 103, in build_and_run_cmd
+    dbt_cmd, env = self.build_cmd(context=context, cmd_flags=cmd_flags)
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/operators/base.py", line 218, in build_cmd
+    profile, profile_vars = map_profile(
+  File "/home/airflow/.local/lib/python3.8/site-packages/cosmos/providers/dbt/core/utils/profiles_generator.py", line 64, in map_profile
+    conn = BaseHook().get_connection(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 477, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `networkrail_dbt_bigquery_conn` isn't defined
+[2023-10-07T08:57:23.904+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=networkrail_dbt_dag, task_id=stg_networkrail__operating_companies.stg_networkrail__operating_companies_run, execution_date=20231007T085719, start_date=20231007T085723, end_date=20231007T085723
+[2023-10-07T08:57:23.926+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 42 for task stg_networkrail__operating_companies.stg_networkrail__operating_companies_run (The conn_id `networkrail_dbt_bigquery_conn` isn't defined; 11643)
+[2023-10-07T08:57:23.971+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-07T08:57:24.010+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

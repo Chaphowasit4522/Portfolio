@@ -1,0 +1,27 @@
+[2023-10-07T09:04:55.647+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: networkrail_dbt_dag.stg_networkrail__movements.stg_networkrail__movements_run manual__2023-10-07T09:04:08.079028+00:00 [queued]>
+[2023-10-07T09:04:55.662+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: networkrail_dbt_dag.stg_networkrail__movements.stg_networkrail__movements_run manual__2023-10-07T09:04:08.079028+00:00 [queued]>
+[2023-10-07T09:04:55.663+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2023-10-07T09:04:55.697+0000] {taskinstance.py:1382} INFO - Executing <Task(DbtRunLocalOperator): stg_networkrail__movements.stg_networkrail__movements_run> on 2023-10-07 09:04:08.079028+00:00
+[2023-10-07T09:04:55.705+0000] {standard_task_runner.py:57} INFO - Started process 15377 to run task
+[2023-10-07T09:04:55.713+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'networkrail_dbt_dag', 'stg_networkrail__movements.stg_networkrail__movements_run', 'manual__2023-10-07T09:04:08.079028+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/networkrail_dbt_dag.py', '--cfg-path', '/tmp/tmp967mt6oy']
+[2023-10-07T09:04:55.715+0000] {standard_task_runner.py:85} INFO - Job 59: Subtask stg_networkrail__movements.stg_networkrail__movements_run
+[2023-10-07T09:04:55.807+0000] {task_command.py:415} INFO - Running <TaskInstance: networkrail_dbt_dag.stg_networkrail__movements.stg_networkrail__movements_run manual__2023-10-07T09:04:08.079028+00:00 [running]> on host 6b4be57cca48
+[2023-10-07T09:04:55.930+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Chaphowasit Big' AIRFLOW_CTX_DAG_ID='networkrail_dbt_dag' AIRFLOW_CTX_TASK_ID='stg_networkrail__movements.stg_networkrail__movements_run' AIRFLOW_CTX_EXECUTION_DATE='2023-10-07T09:04:08.079028+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-07T09:04:08.079028+00:00'
+[2023-10-07T09:04:55.950+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2023-10-07T09:04:55.962+0000] {base.py:73} INFO - Using connection ID 'networkrail_dbt_bigquery_conn' for task execution.
+[2023-10-07T09:04:55.972+0000] {adapted_subprocesshook.py:55} INFO - Tmp dir root location: 
+ /tmp
+[2023-10-07T09:04:55.973+0000] {adapted_subprocesshook.py:68} INFO - Running command: ['dbt', 'run', '--models', 'stg_networkrail__movements', '--profile', 'bigquery_profile']
+[2023-10-07T09:04:55.987+0000] {adapted_subprocesshook.py:79} INFO - Output:
+[2023-10-07T09:05:03.105+0000] {adapted_subprocesshook.py:91} INFO - [0m09:05:03  Running with dbt=1.5.0
+[2023-10-07T09:05:04.820+0000] {adapted_subprocesshook.py:91} INFO - [0m09:05:04  Encountered an error:
+[2023-10-07T09:05:04.821+0000] {adapted_subprocesshook.py:91} INFO - Runtime Error
+[2023-10-07T09:05:04.821+0000] {adapted_subprocesshook.py:91} INFO -   Failed to read package: Runtime Error
+[2023-10-07T09:05:04.822+0000] {adapted_subprocesshook.py:91} INFO -     No dbt_project.yml found at expected path /tmp/tmpykfjwbxn/dbt_project/dbt_packages/dbt_date/dbt_project.yml
+[2023-10-07T09:05:04.822+0000] {adapted_subprocesshook.py:91} INFO -     Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+[2023-10-07T09:05:04.823+0000] {adapted_subprocesshook.py:91} INFO - 
+[2023-10-07T09:05:04.823+0000] {adapted_subprocesshook.py:91} INFO - 
+[2023-10-07T09:05:04.824+0000] {adapted_subprocesshook.py:91} INFO - Error encountered in /tmp/tmpykfjwbxn/dbt_project/dbt_packages/dbt_date
+[2023-10-07T09:05:06.498+0000] {adapted_subprocesshook.py:95} INFO - Command exited with return code 2
+[2023-10-07T09:05:06.607+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-07T09:05:06.782+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check
