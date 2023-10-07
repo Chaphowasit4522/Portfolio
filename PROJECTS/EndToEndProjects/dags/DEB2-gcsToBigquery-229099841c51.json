@@ -1,6 +1,6 @@
 {
-  "Title": "your keyfile from Google Cloud IAM/Admin",
-  "Permissions": [
+  "Title": "your keyfile text from Google Cloud IAM/Admin",
+  "Permissions": [ "add these permission to your Role" ,
     "bigquery.jobs.create",
     "bigquery.tables.create",
     "bigquery.tables.get",
