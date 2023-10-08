@@ -23,24 +23,26 @@ Data Structures & Algorithms<br />
 Communication, Teamwork, Adaptability
 
 # Certification :earth_asia:
-Azure Fundamentals (AZ-900) - Microsoft <br>
-AWS Certified Cloud Practitioner - Amazon Web Services <br>
-Google Data Analytics, Advanced Data Analytic, Google BI - Google<br>
-Google Project Management, Google IT Support, Google Cybersecurity - Google<br>
-Google IT Automation with Python - Google<br>
-Road to Data Engineer - DataTH<br>
-Data Engineer - DataCamp<br>
-Data Science Bootcamp - DataRockie<br>
-Data Engineer Bootcamp (Scholarship Student) - Skooldio<br>
-Infrastructure Engineer Bootcamp (Scholarship Student & upcoming) - KBTG<br>
-ML, MLOPs, Cognitives, AI Builder - Microsoft AI Challenge <br>
-Mahidol AI Hackathon (Recommendation Systems) - Mahidol University<br>
-AWS re/start Graduated - Amazon Web Services<br>
-Generative AI , LLMs model and Attention Mechanism - Google Cloud Skills Boost<br>
-Data Engineer on Microsoft Azure - Udemy<br>
-SQL , Tableau and JavaScript - Udemy<br>
-Master Looker Studio - Skooldio<br>
-Passed LinkedIn Skill Assessments (AWS, GCP, Azure, C, Git, Machine learning, MySQL, Python, R) - LinkedIn
+Road to Data Engineer - DataTH<br />
+Data Engineer - DataCamp<br />
+Data Science Bootcamp - DataRockie<br />
+Data Engineer Bootcamp (Scholarship Student) - Skooldio<br />
+Infrastructure Engineer Bootcamp (Scholarship Student & upcoming) - KBTG<br />
+ML, MLOPs, Cognitives, AI Builder - Microsoft AI Challenge<br />
+Mahidol AI Hackathon (Recommendation Systems) - Mahidol University<br />
+Google Data Analytics, Advanced Data Analytic, Google BI - Google<br />
+Google Project Management, Google IT Support, Google Cybersecurity - Google<br />
+Google IT Automation with Python - Google<br />
+Azure Fundamentals (AZ-900) - Microsoft<br />
+AWS Certified Cloud Practitioner - Amazon Web Services<br />
+AWS re/start Graduated - Amazon Web Services<br />
+Generative AI , LLMs model and Attention Mechanism - Google Cloud Skills Boost<br />
+Data Engineer on Microsoft Azure - Udemy<br />
+SQL , Tableau and JavaScript - Udemy<br />
+Master Looker Studio - Skooldio<br />
+Scala Programming - Skooldio<br />
+Passed LinkedIn Skill Assessments (AWS, GCP, Azure, C, Git, Machine learning, MySQL, Python, R, Scala, OOP) - LinkedIn<br />
+Data Science, Python Data Science, R, SQL - TestDome
 
 # Contributions and Feedback :milky_way:
 **Microsoft Learn Student Ambassador** - Microsoft
