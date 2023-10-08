@@ -46,16 +46,20 @@ Data Science, Python Data Science, R, SQL - TestDome
 
 # Contributions and Feedback :milky_way:
 **Microsoft Learn Student Ambassador** - Microsoft
-I have the privilege of learning about GCP and how to use it to build innovative applications. Participating in discussions and listening to insights from experienced professionals. Growing both personally and professionally.<br><br>
-**Techical Member** - Google Developer Student Club
-Promote Microsoft Learn to students and faculty at my university. <br>
-Organize and lead events and workshops on Microsoft technologies<br>
-Mentor and support other student ambassadors.<br>
-Represent Microsoft at local and regional events.<br><br>
+I have the privilege of learning about GCP and how to use it to build innovative applications. Participating in discussions and
+listening to insights from experienced professionals. Growing both personally and professionally.
+**Technical Member** - Google Developer Student Club
+Promote Microsoft Learn to students and faculty at my university.
+Organize and lead events and workshops on Microsoft technologies
+Mentor and support other student ambassadors.
+Represent Microsoft at local and regional events.
 **Blog Writing** - Medium
-I have published two blog posts on Medium about “my journey to become an intern data engineer” and “review of the AZ 900: Microsoft Fundamentals exam”.<br><br>
-**Digital Volunteer Thailand Students**  - DEPA
-Learn many skills from Depa Thailand such as technical skills, leader skills, presentation skills, digital skills, pitching skills and get an opportunity for compete in Hackathon Competition 2023
+I have published 3 blogs posts on Medium about “my journey to become an intern data engineer”, “review of the AZ 900: Microsoft
+Fundamentals exam”, “Review of Data Engineering Bootcamp - Skooldio (scholarship students) ver.Thai”.
+**Digital Volunteer Thailand Students** - DEPA
+Learn many skills from Depa Thailand such as technical skills, leader skills, presentation skills, digital skills, pitching skills and get
+an opportunity for compete in Hackathon Competition 2023
+
 
 # Contact :ghost:
 **Email** : chaphowasit.work@gmail.com <br>
