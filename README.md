@@ -60,7 +60,7 @@ an opportunity for compete in Hackathon Competition 2023 <br />
 
 
 # Contact :ghost:
-**Email** : chaphowasit.work@gmail.com <br>
+**Email** : chaphowasit.intern@gmail.com <br>
 **LinkedIn** : https://www.linkedin.com/in/chaphowasit/ <br>
 **Medium** : https://medium.com/@Chaphowasit <br>
 **Github** : https://github.com/Chaphowasit4522/ <br>
