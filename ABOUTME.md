@@ -12,15 +12,13 @@ I'm passionate about data especially about data engineering, and I have a fervor
 Bachelor of Engineering in Computer Engineering ,The third year.<br />
 
 # Skills :honeybee:
-Python, SQL, R (Main Languages)<br />
-C/HTML/CSS/JS, Java (Additional)<br />
-AWS, Azure, GCP in Fundamentals and Data Engineering tools<br />
-Git, Docker, Poetry (package management)<br />
-BI tools (Tableau, Power BI, Looker, Python and R libs)<br />
-ML (Caret, Scikit-learn, OpenCV etc.)<br />
-Bash command<br />
-Data Structures & Algorithms<br />
-Communication, Teamwork, Adaptability
+Programming Languages               Main : Python, SQL, R, Scala
+                                    Additional : C, HTML/CSS/JS, Java, C++
+Cloud Platforms                     AWS, Azure, GCP in Fundamentals and Data Engineering tools
+Development & Version Control       Git, Docker, Kuberbetes, Infrastructure as Code, Bash, Poetry
+Business Intelligence               Tableau, Power BI, Looker, Spreadsheet, Python and R libraries for BI
+Machine Learning                    Caret, Scikit-learn, OpenCV, Additional ML tools
+Soft Skills                         Problem-Solving, Communication, Teamwork, Adaptability
 
 # Certification :earth_asia:
 Road to Data Engineer - DataTH<br />
