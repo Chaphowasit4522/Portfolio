@@ -45,20 +45,20 @@ Passed LinkedIn Skill Assessments (AWS, GCP, Azure, C, Git, Machine learning, My
 Data Science, Python Data Science, R, SQL - TestDome
 
 # Contributions and Feedback :milky_way:
-**Microsoft Learn Student Ambassador** - Microsoft<br />
+**Microsoft Learn Student Ambassador** - Microsoft <br />
 I have the privilege of learning about GCP and how to use it to build innovative applications. Participating in discussions and
-listening to insights from experienced professionals. Growing both personally and professionally.<br />
-**Technical Member** - Google Developer Student Club<br />
+listening to insights from experienced professionals. Growing both personally and professionally. <br />
+**Technical Member** - Google Developer Student Club <br />
 Promote Microsoft Learn to students and faculty at my university.
 Organize and lead events and workshops on Microsoft technologies
 Mentor and support other student ambassadors.
-Represent Microsoft at local and regional events.<br />
-**Blog Writing** - Medium<br />
+Represent Microsoft at local and regional events. <br />
+**Blog Writing** - Medium <br />
 I have published 3 blogs posts on Medium about “my journey to become an intern data engineer”, “review of the AZ 900: Microsoft
 Fundamentals exam”, “Review of Data Engineering Bootcamp - Skooldio (scholarship students) ver.Thai”.<br />
-**Digital Volunteer Thailand Students** - DEPA<br />
+**Digital Volunteer Thailand Students** - DEPA <br />
 Learn many skills from Depa Thailand such as technical skills, leader skills, presentation skills, digital skills, pitching skills and get
-an opportunity for compete in Hackathon Competition 2023<br />
+an opportunity for compete in Hackathon Competition 2023 <br />
 
 
 # Contact :ghost:
