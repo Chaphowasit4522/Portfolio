@@ -1,4 +1,4 @@
-# End-To-End with GCP
+# End-To-End Project with GCP
 
 # Background
 
