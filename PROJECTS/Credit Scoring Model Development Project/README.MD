@@ -24,6 +24,10 @@ The project utilizes machine learning and data analysis tools and techniques. It
 4. Scikit-Learn: To perform data preprocessing and model building.
 5. Decile Methodology: To formulate a lending strategy based on model predictions.
 
+# **Data Flow & Diagram**
+
+The data flows from the dataset provided by **BIGGY** Bank through various preprocessing and model-building steps in the Google Colab. Model predictions and analysis will be exported for further use in formulating the lending strategy.
+
 ![Technologies & Tools](https://github.com/Chaphowasit4522/Portfolio/blob/0de6545af035fd2d2241a1b96fa6d6f9a8f492b7/PROJECTS/Credit%20Scoring%20Model%20Development%20Project/Pictures/Untitled%203.png)
 
 # **Project Overview**
