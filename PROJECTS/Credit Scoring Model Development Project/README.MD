@@ -1,4 +1,4 @@
-# Credit Scoring Model Project
+# Credit Scoring Model Development Project
 
 # Introduction
 
