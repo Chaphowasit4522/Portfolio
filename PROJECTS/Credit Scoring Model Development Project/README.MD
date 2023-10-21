@@ -110,6 +110,9 @@ I have two versions of code: one in Python and the other in PySpark. I've also i
 
 To put it another way, when dealing with smaller datasets, the simplicity and in-memory processing capabilities of Pandas make it a more efficient choice. But as data scales up, PySpark's ability to distribute the workload across a cluster of machines can lead to improved performance and scalability, making it a more suitable option for handling big data.
 
+# Model Documentation
+I have meticulously crafted a detailed model documentation in this project to ensure that every aspect of our credit scoring model, developed with logistic regression, is thoroughly explained and readily accessible.
+
 # Summary
 
 ![Summary](https://github.com/Chaphowasit4522/Portfolio/blob/0de6545af035fd2d2241a1b96fa6d6f9a8f492b7/PROJECTS/Credit%20Scoring%20Model%20Development%20Project/Pictures/Untitled%2022.png)
