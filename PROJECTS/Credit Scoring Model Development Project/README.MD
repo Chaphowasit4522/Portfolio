@@ -1,5 +1,7 @@
 # Credit Scoring Model Development Project
 
+Reference : https://medium.com/@skillcate/credit-scoring-project-using-logistic-regression-c1e88bd7cf25
+
 # Introduction
 
 We will explore a comprehensive credit scoring project for a fictional client, '**BIGGY** Bank.' Our goal is to help **BIGGY** Bank make data-driven lending decisions for subprime mortgages, a type of loan granted to individuals with poor credit scores. We will use a logistic regression classifier and the decile methodology to formulate a lending strategy.
