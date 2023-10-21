@@ -113,6 +113,40 @@ To put it another way, when dealing with smaller datasets, the simplicity and in
 # Model Documentation
 I have meticulously crafted a detailed model documentation in this project to ensure that every aspect of our credit scoring model, developed with logistic regression, is thoroughly explained and readily accessible.
 
+## Example contents in document
+
+**Introduction and Overview:** An initial look at the purpose and scope of this documentation.
+
+**Data Source:** Information about the origin of the dataset used in this model.
+
+**Data Preprocessing:** How the data was cleaned, prepared, and transformed for analysis.
+
+**Model Details:** A deep dive into the specifics of the logistic regression model, including hyperparameters and assumptions.
+
+**Data Summary:** A brief overview of the dataset's size and structure.
+
+**Handling Missing Values:** An explanation of how missing data was managed during preprocessing.
+
+**Data Splitting:** Details on how the dataset was divided into training and testing sets.
+
+**Feature Standardization:** The process of standardizing features for modeling.
+
+**Exporting Normalization Coefficients:** Saving the scaling factors for future predictions.
+
+**Model Training:** Insights into the training process of the logistic regression model.
+
+**Exporting Model:** How the trained model was saved for later use.
+
+**Model Evaluation:** Performance metrics like the confusion matrix and accuracy score for model assessment.
+
+**Probability Predictions:** Understanding the generation of probability predictions.
+
+**Model Output File:** The output file containing predictions and actual outcomes.
+
+**Conclusion:** Summarizing the model development and its potential applications.
+
+**Future Enhancements:** Suggestions for improving the model, such as exploring advanced machine learning techniques and implementing real-time scoring and monitoring.
+
 # Summary
 
 ![Summary](https://github.com/Chaphowasit4522/Portfolio/blob/0de6545af035fd2d2241a1b96fa6d6f9a8f492b7/PROJECTS/Credit%20Scoring%20Model%20Development%20Project/Pictures/Untitled%2022.png)
