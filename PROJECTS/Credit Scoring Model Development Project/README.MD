@@ -1,4 +1,4 @@
-# Credit Scoring Model Development Project
+# Credit Scoring Model Development Project 💳
 
 Reference : https://medium.com/@skillcate/credit-scoring-project-using-logistic-regression-c1e88bd7cf25
 
