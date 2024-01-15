@@ -1,6 +1,6 @@
 # Automated Data Pipeline & Data Flow in Azure :snowflake:
 
-!!!!:rotating_light: This project involves credentialing, and everything within it is simulated :rotating_light:!!!!
+!!!!This project involves credentialing, and everything within it is simulated !!!!
 
 ## Introduction
 
