@@ -1,6 +1,6 @@
 # Interactive Internet Sales Dashboards :iphone:
 
-## Business request
+## Business requirements
 
 Mark Steven - Sales Manager:
 Hi Big!
