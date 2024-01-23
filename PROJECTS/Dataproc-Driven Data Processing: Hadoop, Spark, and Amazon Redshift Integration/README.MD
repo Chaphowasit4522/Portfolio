@@ -67,7 +67,7 @@ Afterward, connect to it through the web interface tab.
  ![ALT](Picture/redshift4.png)
 
  then the data will appear on Amazon Redshift
- 
+
   ![ALT](Picture/redshift6.png)
 
 9. Connect the data to Amazon QuickSight, then choose our database host. 
@@ -76,7 +76,7 @@ Afterward, connect to it through the web interface tab.
 
 10. Create a dashboard in QuickSight.
 
-![ALT]()
+![ALT](Picture/redshift7.png)
 
 # Summary
 
