@@ -20,11 +20,57 @@ Programming Languages: Python (PySpark and Pandas) <br>
 This project, titled "Dataproc-Driven Data Processing: Hadoop, Spark, Redshift, and QuickSight Integration," aims to create a streamlined and integrated data processing pipeline. Leveraging Google Cloud Dataproc, Apache Hadoop, Apache Spark, AWS Redshift, and AWS QuickSight, the objective is to orchestrate a seamless Hadoop-Spark workflow for efficient data manipulation and analytics on Google Cloud Storage. The solution, integrated with Jupyter Notebook and powered by PySpark, ensures a user-friendly data exploration experience. The final outcome involves storing processed data in AWS Redshift, a fully managed data warehouse, and utilizing AWS QuickSight for advanced data visualization and business intelligence. This project seeks to deliver a unified and insightful data processing experience, enabling users to efficiently explore, manipulate, and analyze large datasets for informed decision-making.
 
 # Before Start
-1. You need to 
+- Ensure that you have a Hadoop cluster installed with Jupyter Notebook. (I created one using Dataproc with 1 master and 2 worker nodes)
+   
+![ALT](Picture/hadoopCluster.png)
+
 
 # Process
+1. SSH to connect to the VM of the master node, then run the command:
+   ```jupyter notebook```
+   
+![ALT](Picture/ssh.png)
+and wait for the server to start.
 
+Afterward, connect to it through the web interface tab.
 
+![ALT](Picture/webinterface.png)
 
-# 
+2. Create an .ipynb file for SparkProcessing and start by running a SparkSession. Load data from GCS storage using the gs:// path.
+
+![ALT](Picture/spark1.png)
+
+3. Implement various data processing techniques such as handling missing values, conducting Exploratory Data Analysis (EDA), or even developing machine learning models after completing the data processing. Assume that the data processing is finished.
+
+![ALT](Picture/spark2.png)
+
+4. Export the processed data into a CSV file with headers.
+   
+![ALT](Picture/spark3.png)
+
+5. Create an .ipynb file for RedshiftWithSpark and load all parts of the CSV file (as Spark exports data in multiple files across workers).
+   
+   
+![ALT](Picture/redshift1.png)
+
+6. Connect to Amazon Redshift (depending on the type of Redshift, but in this case, I use the serverless option).
+   
+![ALT](Picture/redshift2.png)
+
+7. Create a table in Redshift following the data types of our DataFrame.
+   
+![ALT](Picture/redshift3.png)
+
+8. Insert our data into the table on Redshift.
+
+ ![ALT](Picture/redshift4.png)
+
+9. Connect the data to Amazon QuickSight, then choose our database host. 
+
+![ALT](Picture/redshift5.png)
+
+10. Create a dashboard in QuickSight.
+
+![ALT]()
+
 
