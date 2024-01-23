@@ -61,6 +61,7 @@ Afterward, connect to it through the web interface tab.
    
 ![ALT](Picture/redshift3.png)
 
+
 8. Insert our data into the table on Redshift.
 
  ![ALT](Picture/redshift4.png)
@@ -73,4 +74,11 @@ Afterward, connect to it through the web interface tab.
 
 ![ALT]()
 
+# Summary
+
+This project, titled "Dataproc-Driven Data Processing: Hadoop, Spark, Redshift, and QuickSight Integration," is a comprehensive exploration into building an end-to-end data processing pipeline. The journey begins with the setup of a Hadoop cluster integrated with Jupyter Notebook, utilizing Google Cloud Dataproc. The subsequent steps involve Spark data processing, starting with the creation of an .ipynb file for SparkProcessing. This file facilitates loading data from Google Cloud Storage (GCS) using the gs:// path and implementing various data processing techniques, such as handling missing values and conducting exploratory data analysis (EDA). The processed data is then exported into a CSV file with headers.
+
+Moving forward, the project extends into the realm of AWS, focusing on Redshift integration. An additional .ipynb file, RedshiftWithSpark, is created to load multiple parts of the CSV file into Amazon Redshift. The integration includes connecting to Redshift, creating a table based on the DataFrame's data types, and inserting the processed data into the Redshift table.
+
+The project concludes by bridging the gap between data and insights. The processed data in Redshift is connected to Amazon QuickSight, enabling the creation of insightful dashboards for advanced data visualization and business intelligence. This holistic approach ensures that the project delivers a unified and insightful data processing experience, empowering users to explore, manipulate, and derive meaningful insights from large datasets.
 
