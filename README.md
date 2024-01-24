@@ -21,26 +21,34 @@ and Additional : C, HTML/CSS/JS, Java, C++<br />
 **Soft Skills**                       -> Problem-Solving, Communication, Teamwork, Adaptability
 
 # Certification :earth_asia:
-Road to Data Engineer - DataTH<br />
-Data Engineer - DataCamp<br />
-Data Science Bootcamp - DataRockie<br />
-Data Engineer Bootcamp (Scholarship Student) - Skooldio<br />
-Infrastructure Engineer Bootcamp (Scholarship Student & upcoming) - KBTG<br />
-ML, MLOPs, Cognitives, AI Builder - Microsoft AI Challenge<br />
-Mahidol AI Hackathon (Recommendation Systems) - Mahidol University<br />
-Google Data Analytics, Advanced Data Analytic, Google BI - Google<br />
-Google Project Management, Google IT Support, Google Cybersecurity - Google<br />
-Google IT Automation with Python - Google<br />
-Azure Fundamentals (AZ-900) - Microsoft<br />
-AWS Certified Cloud Practitioner - Amazon Web Services<br />
-AWS re/start Graduated - Amazon Web Services<br />
-Generative AI , LLMs model and Attention Mechanism - Google Cloud Skills Boost<br />
-Data Engineer on Microsoft Azure - Udemy<br />
-SQL , Tableau and JavaScript - Udemy<br />
-Master Looker Studio - Skooldio<br />
-Scala Programming - Skooldio<br />
-Passed LinkedIn Skill Assessments (AWS, GCP, Azure, C, Git, Machine learning, MySQL, Python, R, Scala, OOP) - LinkedIn<br />
-Data Science, Python Data Science, R, SQL - TestDome
+Road to Data Engineer - DataTH <br>
+Road to Machine Learning Engineer - DataTH <br>
+Data Engineer Bootcamp (Scholarship Student) - Skooldio <br>
+Data Engineer - DataCamp <br>
+Data Engineering with NoSQL - Government Big Data Institute(GBDi) <br>
+Data Science Bootcamp - DataRockie <br>
+Creating a Streaming Data Pipeline With Apache Kafka - Google <br>
+Infrastructure Engineer Bootcamp (Scholarship Student) - KBTG <br>
+Mini Data Science Bootcamp & Prompt Design with Bard AI  - DataRockie <br>
+Databricks Lakehouse Platform Accreditation (Fundamentals) - Databricks  <br>
+AI/ML/IoT - DEPA <br>
+International DataHack for Sustainability - ATU-NET  <br>
+ML, MLOPs, Cognitives, AI Builder - Microsoft AI Challenge  <br>
+Mahidol AI Hackathon (Recommendation Systems) - Mahidol University <br>
+Google Data Analytics, Advanced Data Analytic, Google BI - Google <br>
+Google Project Management, Google IT Support, Google Cybersecurity - Google <br>
+Google IT Automation with Python - Google <br>
+Azure Fundamentals (AZ-900) - Microsoft <br>
+AWS Certified Cloud Practitioner - Amazon Web Services <br>
+AWS re/start Graduated - Amazon Web Services <br>
+Generative AI , LLMs model and Attention Mechanism - Google Cloud Skills Boost <br>
+Data Engineer on Microsoft Azure - Udemy <br>
+SQL , Tableau, JavaScript - Udemy <br>
+Mathematical Foundations of Machine Learning - Udemy <br>
+Deep learning with TensorFlow - Skooldio <br>
+Master Looker Studio, Git Essentials for Developers - Skooldio <br>
+Scala Programming, How to Become a Better Programmer - Skooldio <br>
+Data Science, Python Data Science, R, SQL - TestDome <br>
 
 # Contributions and Feedback :milky_way:
 **Microsoft Learn Student Ambassador** - Microsoft <br />
