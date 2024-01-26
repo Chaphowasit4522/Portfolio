@@ -91,18 +91,18 @@ Outcome: Application of learned concepts in a real-world scenario, fostering ada
 
 # Processes
 
-[01 Setup Kubernetes Cluster](01_Setup_K8s_Cluster/README.MD)
-[02 Deploy Simple Application](02_Deploy_Simple_Application/README.md)
-[03 Setup Monitoring K8S](03_Setup_Monitoring_K8S/README.md)
-[04 Setup Ansible](04_Setup_Ansible/README.md)
-[05 Setup Zabbix Server](05_Setup_Zabbix_Server/README.md)
-[06 Setup Zabbix Agent](06_Setup_Zabbix_Agent/README.md)
-[07 Setup Grafana01](07_Setup_Grafana01/README.md)
-[08 Setup Filebeat](08_Setup_Filebeat/README.md)
-[09 Setup Kibana (ELK Stack)](09_Setup_Kibana_(ELK_Stack)/README.md)
-[10 Day2 Operation](10_Day2_Operation/README.md)
-[11 Setup Grafana02](11_Setup_Grafana02/README.md)
-[12 Real word Situation](12_Real_Word_Situation/README.md)
+[01 Setup Kubernetes Cluster](01_Setup_K8s_Cluster/README.MD) <br>
+[02 Deploy Simple Application](02_Deploy_Simple_Application/README.md) <br>
+[03 Setup Monitoring K8S](03_Setup_Monitoring_K8S/README.md) <br>
+[04 Setup Ansible](04_Setup_Ansible/README.md) <br>
+[05 Setup Zabbix Server](05_Setup_Zabbix_Server/README.md) <br>
+[06 Setup Zabbix Agent](06_Setup_Zabbix_Agent/README.md) <br>
+[07 Setup Grafana01](07_Setup_Grafana01/README.md) <br>
+[08 Setup Filebeat](08_Setup_Filebeat/README.md) <br>
+[09 Setup Kibana (ELK Stack)](09_Setup_Kibana_(ELK_Stack)/README.md) <br>
+[10 Day2 Operation](10_Day2_Operation/README.md) <br>
+[11 Setup Grafana02](11_Setup_Grafana02/README.md) <br>
+[12 Real word Situation](12_Real_Word_Situation/README.md) <br>
 
 # Summary
 
