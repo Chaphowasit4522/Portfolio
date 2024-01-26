@@ -98,11 +98,6 @@ Outcome: Application of learned concepts in a real-world scenario, fostering ada
 [05 Setup Zabbix Server](05_Setup_Zabbix_Server/README.md) <br>
 [06 Setup Zabbix Agent](06_Setup_Zabbix_Agent/README.md) <br>
 [07 Setup Grafana01](07_Setup_Grafana01/README.md) <br>
-[08 Setup Filebeat](08_Setup_Filebeat/README.md) <br>
-[09 Setup Kibana (ELK Stack)](09_Setup_Kibana_(ELK_Stack)/README.md) <br>
-[10 Day2 Operation](10_Day2_Operation/README.md) <br>
-[11 Setup Grafana02](11_Setup_Grafana02/README.md) <br>
-[12 Real word Situation](12_Real_Word_Situation/README.md) <br>
 
 # Summary
 
