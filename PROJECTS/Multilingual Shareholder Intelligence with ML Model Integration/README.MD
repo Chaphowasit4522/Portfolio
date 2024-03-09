@@ -6,12 +6,12 @@ The "Multilingual Shareholder Data Processing and Visualization" project address
 ## Technologies & Tools:
 
 **Python**: Utilized for scripting and development of data processing modules. <br>
-MySQL: Database management system employed for storing shareholder data. <br>
-Google Translator API: Integrated to facilitate seamless translation of Thai shareholder names into English. <br>
-Flask: Web framework utilized for developing a dynamic web service for data visualization.
-JSON: Serialization format employed for efficient data storage and exchange. <br>
-Pandas: Library utilized for data manipulation and analysis. <br>
-Matplotlib and Plotly: Graph visualization libraries utilized for presenting shareholder data insights. <br>
+**MySQL**: Database management system employed for storing shareholder data. <br>
+**Google Translator API**: Integrated to facilitate seamless translation of Thai shareholder names into English. <br>
+**Flask**: Web framework utilized for developing a dynamic web service for data visualization.
+**JSON**: Serialization format employed for efficient data storage and exchange. <br>
+**Pandas**: Library utilized for data manipulation and analysis. <br>
+**Matplotlib and Plotly**: Graph visualization libraries utilized for presenting shareholder data insights. <br>
 
 ## Project Overview:
 The project entails the design and implementation of a comprehensive data processing and visualization pipeline for shareholder data. Initially, a robust Python script is developed to efficiently extract shareholder data from a MySQL database. Subsequently, the Google Translator API is integrated to seamlessly translate Thai shareholder names into English, thereby enhancing data comprehensibility and accessibility. Advanced data segmentation techniques are engineered to optimize storage and retrieval, ensuring scalability and performance.
