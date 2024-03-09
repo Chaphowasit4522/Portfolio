@@ -5,7 +5,7 @@ The "Multilingual Shareholder Data Processing and Visualization" project address
 
 ## Technologies & Tools:
 
-Python: Utilized for scripting and development of data processing modules. <br>
+**Python**: Utilized for scripting and development of data processing modules. <br>
 MySQL: Database management system employed for storing shareholder data. <br>
 Google Translator API: Integrated to facilitate seamless translation of Thai shareholder names into English. <br>
 Flask: Web framework utilized for developing a dynamic web service for data visualization.
