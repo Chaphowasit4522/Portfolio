@@ -1,7 +1,7 @@
 # Multilingual Shareholder Intelligence with ML Model Integration
 
 ## Introduction:
-The "Multilingual Shareholder Data Processing and Visualization" project addresses the challenge of managing and visualizing shareholder data from diverse linguistic backgrounds. By leveraging advanced technologies and tools, this project aims to streamline data processing, enhance accessibility, and facilitate insightful visualization for stakeholders. Through a combination of robust data extraction, translation, segmentation, and visualization techniques, we endeavor to revolutionize the way shareholder data is managed and utilized.
+The "Multilingual Shareholder Intelligence with ML Model Integration" project addresses the challenge of managing and visualizing shareholder data from diverse linguistic backgrounds. By leveraging advanced technologies and tools, this project aims to streamline data processing, enhance accessibility, and facilitate insightful visualization for stakeholders. Through a combination of robust data extraction, translation, segmentation, and visualization techniques, we endeavor to revolutionize the way shareholder data is managed and utilized.
 
 ## Technologies & Tools:
 
